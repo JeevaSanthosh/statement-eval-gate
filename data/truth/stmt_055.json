@@ -1,0 +1,38 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/196592/65",
+  "statement_start": "2024-01-01",
+  "statement_end": "2024-03-31",
+  "opening_value": 83877.51,
+  "closing_value": 82938.11,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": 21.4,
+  "holdings": [
+    {
+      "fund_name": "Calder Japan Equity Acc GBP",
+      "units": 3715.901,
+      "value": 14776.79
+    },
+    {
+      "fund_name": "Saltmarsh Global Equity Index C Acc",
+      "units": 846.347,
+      "value": 5114.53
+    },
+    {
+      "fund_name": "Calder European Smaller Companies Acc GBP",
+      "units": 962.048,
+      "value": 1530.56
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond Acc GBP",
+      "units": 6065.722,
+      "value": 27008.42
+    },
+    {
+      "fund_name": "Larchmont Asia Pacific ex Japan Inc",
+      "units": 7268.079,
+      "value": 34507.81
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-31180920
+Statement period: 01 Apr 2026 to 30 Jun 2026
+Summary
+Opening value £90,760.46
+Payments in £450.00
+Withdrawals £2,000.00
+Charges £54.53
+Closing value £93,018.20
+Your investments
+Fund Units Price Value
+Larchmont Multi-Asset Balanced C Acc 3,987.764 2.6431 £10,540.25
+Pennine Multi-Asset Balanced Acc 1,061.942 3.6257 £3,850.31
+Orwell Short-Dated Bond Inc 1,607.961 1.4835 £2,385.45
+Saltmarsh Asia Pacific ex Japan Inc 370.663 4.0219 £1,490.77
+Saltmarsh Sterling Corporate Bond Acc GBP 1,395.945 1.0928 £1,525.45
+Wrekin UK Gilt Tracker Acc 6,399.437 5.7600 £36,860.87
+Meridian Asia Pacific ex Japan Inc 6,075.179 5.9858 £36,365.10
+Total £93,018.20

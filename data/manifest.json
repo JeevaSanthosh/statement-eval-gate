@@ -1,0 +1,614 @@
+[
+  {
+    "id": "stmt_001",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_002",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_003",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_004",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": true,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_005",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_006",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_007",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_008",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_009",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_010",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_011",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_012",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_013",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_014",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_015",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_016",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_017",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": true,
+    "traps": [
+      "extra_price_column",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_018",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_019",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": true,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_020",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_021",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": true,
+    "traps": [
+      "extra_price_column",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_022",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_023",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_024",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_025",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_026",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": true,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_027",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_028",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_029",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_030",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": true,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_031",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": true,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_032",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": true,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_033",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": true,
+    "traps": [
+      "extra_price_column",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_034",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_035",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_036",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_037",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_038",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_039",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_040",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_041",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": true,
+    "traps": [
+      "extra_price_column",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_042",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_043",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_044",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_045",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_046",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_047",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_048",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_049",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_050",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_051",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_052",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": true,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_053",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": false,
+    "traps": [
+      "extra_price_column"
+    ]
+  },
+  {
+    "id": "stmt_054",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_055",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_056",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  },
+  {
+    "id": "stmt_057",
+    "layout": "A",
+    "provider": "Brackenford Investments",
+    "scanned": true,
+    "traps": [
+      "extra_price_column",
+      "scanned"
+    ]
+  },
+  {
+    "id": "stmt_058",
+    "layout": "B",
+    "provider": "Tidewell Platform",
+    "scanned": false,
+    "traps": [
+      "duplicated_row_after_page_break",
+      "totals_only_in_end_summary"
+    ]
+  },
+  {
+    "id": "stmt_059",
+    "layout": "C",
+    "provider": "Ashcombe Pensions",
+    "scanned": false,
+    "traps": [
+      "values_in_prose",
+      "totals_only_in_period_summary"
+    ]
+  },
+  {
+    "id": "stmt_060",
+    "layout": "D",
+    "provider": "Kestrel Lane Wealth",
+    "scanned": false,
+    "traps": [
+      "fees_not_shown",
+      "bracketed_withdrawals",
+      "ordinal_dates"
+    ]
+  }
+]

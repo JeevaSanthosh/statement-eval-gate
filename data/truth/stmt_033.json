@@ -1,0 +1,48 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-40461297",
+  "statement_start": "2024-04-01",
+  "statement_end": "2024-06-30",
+  "opening_value": 97934.59,
+  "closing_value": 95377.22,
+  "contributions": 450.0,
+  "withdrawals": 4050.0,
+  "fees": 27.94,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Global Equity Index Acc",
+      "units": 4274.392,
+      "value": 15295.22
+    },
+    {
+      "fund_name": "Hartsop Global Equity Index C Acc",
+      "units": 1024.528,
+      "value": 4062.46
+    },
+    {
+      "fund_name": "Pennine Global Equity Index Acc",
+      "units": 4449.726,
+      "value": 13824.2
+    },
+    {
+      "fund_name": "Saltmarsh Asia Pacific ex Japan Acc GBP",
+      "units": 4385.263,
+      "value": 26581.63
+    },
+    {
+      "fund_name": "Orwell Multi-Asset Balanced Acc GBP",
+      "units": 8192.225,
+      "value": 26438.13
+    },
+    {
+      "fund_name": "Saltmarsh Global Equity Index C Acc",
+      "units": 584.0,
+      "value": 1102.3
+    },
+    {
+      "fund_name": "Meridian Global Property Securities Inc",
+      "units": 2424.167,
+      "value": 8073.28
+    }
+  ]
+}

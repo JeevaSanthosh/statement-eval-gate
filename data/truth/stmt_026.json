@@ -1,0 +1,43 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 5434 7187",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 84987.82,
+  "closing_value": 86034.51,
+  "contributions": 750.0,
+  "withdrawals": 0.0,
+  "fees": 35.68,
+  "holdings": [
+    {
+      "fund_name": "Meridian Multi-Asset Balanced C Acc",
+      "units": 5920.644,
+      "value": 28693.12
+    },
+    {
+      "fund_name": "Orwell Sterling Corporate Bond C Acc",
+      "units": 1305.897,
+      "value": 7970.7
+    },
+    {
+      "fund_name": "Calder US Equity Tracker Inc",
+      "units": 3102.126,
+      "value": 10552.36
+    },
+    {
+      "fund_name": "Wrekin Asia Pacific ex Japan Acc GBP",
+      "units": 6373.978,
+      "value": 29219.54
+    },
+    {
+      "fund_name": "Saltmarsh Asia Pacific ex Japan Acc",
+      "units": 6574.166,
+      "value": 5578.22
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Acc",
+      "units": 646.074,
+      "value": 4020.57
+    }
+  ]
+}

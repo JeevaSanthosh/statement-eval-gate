@@ -1,0 +1,28 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/483752/55
+This statement covers 1 January 2026 – 31 March 2026.
+On 1 January 2026 your pension was worth £101,081.62. On 31 March 2026 it was worth
+£102,376.78.
+Transactions
+Date Description Amount
+15 January 2026 Monthly contribution £1,000.00
+15 January 2026 Annual management charge -£20.31
+10 February 2026 Monthly contribution £1,000.00
+10 February 2026 Annual management charge -£20.31
+14 March 2026 Monthly contribution £1,000.00
+14 March 2026 Annual management charge -£20.31
+Where your pension is invested
+Fund Units Value
+Saltmarsh UK Gilt Tracker C Acc 1,728.250 £1,583.35
+Saltmarsh Multi-Asset Balanced Acc 6,082.099 £26,047.37
+Larchmont Emerging Markets Equity Acc GBP 2,672.391 £5,187.34
+Hartsop Sterling Corporate Bond C Acc 7,703.802 £46,090.63
+Meridian Emerging Markets Equity C Acc 2,130.729 £8,821.59
+Wrekin Japan Equity Inc 5,188.832 £13,674.70
+Hartsop Japan Equity Inc 366.110 £971.80
+Period summary
+Total contributions £3,000.00
+Total withdrawals £0.00
+Total charges £60.93

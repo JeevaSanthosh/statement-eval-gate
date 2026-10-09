@@ -1,0 +1,33 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-06826512",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 78365.05,
+  "closing_value": 80095.61,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 37.5,
+  "holdings": [
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced Acc",
+      "units": 7385.626,
+      "value": 16586.78
+    },
+    {
+      "fund_name": "Hartsop Asia Pacific ex Japan Inc",
+      "units": 5767.571,
+      "value": 36965.02
+    },
+    {
+      "fund_name": "Meridian Multi-Asset Balanced C Acc",
+      "units": 5289.398,
+      "value": 24241.74
+    },
+    {
+      "fund_name": "Saltmarsh UK Equity Income Inc",
+      "units": 2841.333,
+      "value": 2302.07
+    }
+  ]
+}

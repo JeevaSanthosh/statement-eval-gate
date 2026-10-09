@@ -1,0 +1,18 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-06826512
+Statement period: 01 Jan 2026 to 31 Mar 2026
+Summary
+Opening value £78,365.05
+Payments in £0.00
+Withdrawals £0.00
+Charges £37.50
+Closing value £80,095.61
+Your investments
+Fund Units Price Value
+Wrekin Multi-Asset Balanced Acc 7,385.626 2.2458 £16,586.78
+Hartsop Asia Pacific ex Japan Inc 5,767.571 6.4091 £36,965.02
+Meridian Multi-Asset Balanced C Acc 5,289.398 4.5831 £24,241.74
+Saltmarsh UK Equity Income Inc 2,841.333 0.8102 £2,302.07
+Total £80,095.61

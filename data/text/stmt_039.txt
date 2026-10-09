@@ -1,0 +1,25 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/528862/41
+This statement covers 1 January 2026 – 31 March 2026.
+On 1 January 2026 your pension was worth £68,305.09. On 31 March 2026 it was worth
+£71,333.29.
+Transactions
+Date Description Amount
+23 January 2026 Monthly contribution £100.00
+23 January 2026 Annual management charge -£6.03
+17 February 2026 Monthly contribution £100.00
+17 February 2026 Annual management charge -£6.03
+1 March 2026 Monthly contribution £100.00
+1 March 2026 Annual management charge -£6.02
+Where your pension is invested
+Fund Units Value
+Meridian Sterling Corporate Bond C Acc 5,955.322 £22,122.37
+Wrekin Emerging Markets Equity Acc GBP 1,361.295 £1,462.40
+Wrekin Short-Dated Bond Inc 7,086.784 £26,534.89
+Saltmarsh Japan Equity Inc 4,490.958 £21,213.63
+Period summary
+Total contributions £300.00
+Total withdrawals £0.00
+Total charges £18.08

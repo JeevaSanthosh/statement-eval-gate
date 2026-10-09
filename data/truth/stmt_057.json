@@ -1,0 +1,48 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-09038871",
+  "statement_start": "2024-07-01",
+  "statement_end": "2024-09-30",
+  "opening_value": 120328.99,
+  "closing_value": 127309.08,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 49.77,
+  "holdings": [
+    {
+      "fund_name": "Pennine Short-Dated Bond Acc GBP",
+      "units": 5883.604,
+      "value": 33769.1
+    },
+    {
+      "fund_name": "Hartsop Emerging Markets Equity Acc GBP",
+      "units": 1862.058,
+      "value": 5156.94
+    },
+    {
+      "fund_name": "Pennine Sterling Corporate Bond Inc",
+      "units": 8857.58,
+      "value": 10380.51
+    },
+    {
+      "fund_name": "Calder Emerging Markets Equity Inc",
+      "units": 2783.39,
+      "value": 9786.34
+    },
+    {
+      "fund_name": "Calder Global Property Securities C Acc",
+      "units": 6713.826,
+      "value": 29502.17
+    },
+    {
+      "fund_name": "Pennine Japan Equity C Acc",
+      "units": 8371.204,
+      "value": 38649.43
+    },
+    {
+      "fund_name": "Calder US Equity Tracker Inc",
+      "units": 53.532,
+      "value": 64.59
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-01815908",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 21021.22,
+  "closing_value": 24417.42,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": 16.48,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Global Property Securities Inc",
+      "units": 783.543,
+      "value": 1302.56
+    },
+    {
+      "fund_name": "Pennine Global Equity Index C Acc",
+      "units": 5940.309,
+      "value": 5160.7
+    },
+    {
+      "fund_name": "Orwell UK Gilt Tracker Inc",
+      "units": 7486.598,
+      "value": 13770.51
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Inc",
+      "units": 2566.099,
+      "value": 4183.65
+    }
+  ]
+}

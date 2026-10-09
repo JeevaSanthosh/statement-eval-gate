@@ -1,0 +1,38 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW32493516",
+  "statement_start": "2024-04-01",
+  "statement_end": "2024-06-30",
+  "opening_value": 95501.29,
+  "closing_value": 93937.35,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Pennine UK Equity Income Acc",
+      "units": 7542.139,
+      "value": 7903.67
+    },
+    {
+      "fund_name": "Calder Sterling Corporate Bond Acc GBP",
+      "units": 8218.676,
+      "value": 21309.37
+    },
+    {
+      "fund_name": "Orwell UK Equity Income Acc GBP",
+      "units": 5484.497,
+      "value": 24281.49
+    },
+    {
+      "fund_name": "Saltmarsh Sterling Corporate Bond C Acc",
+      "units": 813.198,
+      "value": 3952.28
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Inc",
+      "units": 6206.42,
+      "value": 36490.54
+    }
+  ]
+}

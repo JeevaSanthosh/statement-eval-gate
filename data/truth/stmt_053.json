@@ -1,0 +1,48 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-31180920",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 90760.46,
+  "closing_value": 93018.2,
+  "contributions": 450.0,
+  "withdrawals": 2000.0,
+  "fees": 54.53,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced C Acc",
+      "units": 3987.764,
+      "value": 10540.25
+    },
+    {
+      "fund_name": "Pennine Multi-Asset Balanced Acc",
+      "units": 1061.942,
+      "value": 3850.31
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond Inc",
+      "units": 1607.961,
+      "value": 2385.45
+    },
+    {
+      "fund_name": "Saltmarsh Asia Pacific ex Japan Inc",
+      "units": 370.663,
+      "value": 1490.77
+    },
+    {
+      "fund_name": "Saltmarsh Sterling Corporate Bond Acc GBP",
+      "units": 1395.945,
+      "value": 1525.45
+    },
+    {
+      "fund_name": "Wrekin UK Gilt Tracker Acc",
+      "units": 6399.437,
+      "value": 36860.87
+    },
+    {
+      "fund_name": "Meridian Asia Pacific ex Japan Inc",
+      "units": 6075.179,
+      "value": 36365.1
+    }
+  ]
+}

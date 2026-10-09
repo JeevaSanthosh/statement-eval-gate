@@ -1,0 +1,18 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-32752368
+Statement period: 01 Jan 2026 to 31 Mar 2026
+Summary
+Opening value £39,621.05
+Payments in £600.00
+Withdrawals £0.00
+Charges £10.67
+Closing value £38,706.33
+Your investments
+Fund Units Price Value
+Larchmont Global Equity Index Inc 3,817.280 1.3735 £5,242.85
+Hartsop Global Equity Index Acc 8,377.396 0.8765 £7,343.05
+Larchmont Asia Pacific ex Japan Acc 7,852.422 1.5906 £12,489.80
+Meridian Emerging Markets Equity Inc 2,811.739 4.8478 £13,630.63
+Total £38,706.33

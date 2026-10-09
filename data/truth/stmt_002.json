@@ -1,0 +1,58 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 7866 6617",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 140949.89,
+  "closing_value": 140517.45,
+  "contributions": 1200.0,
+  "withdrawals": 850.0,
+  "fees": 131.03,
+  "holdings": [
+    {
+      "fund_name": "Meridian Global Property Securities Inc",
+      "units": 5929.124,
+      "value": 16585.67
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Acc GBP",
+      "units": 4955.994,
+      "value": 7664.98
+    },
+    {
+      "fund_name": "Wrekin Global Property Securities Inc",
+      "units": 167.617,
+      "value": 1061.7
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Acc",
+      "units": 5861.085,
+      "value": 22280.98
+    },
+    {
+      "fund_name": "Wrekin Asia Pacific ex Japan Inc",
+      "units": 8405.278,
+      "value": 27508.07
+    },
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced Inc",
+      "units": 7850.817,
+      "value": 43250.82
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced C Acc",
+      "units": 1930.939,
+      "value": 4316.53
+    },
+    {
+      "fund_name": "Wrekin Emerging Markets Equity C Acc",
+      "units": 2664.981,
+      "value": 5785.87
+    },
+    {
+      "fund_name": "Calder Global Equity Index Acc GBP",
+      "units": 5294.477,
+      "value": 12062.83
+    }
+  ]
+}

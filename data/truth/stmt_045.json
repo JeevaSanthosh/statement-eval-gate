@@ -1,0 +1,33 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-01199098",
+  "statement_start": "2025-04-01",
+  "statement_end": "2025-06-30",
+  "opening_value": 35932.27,
+  "closing_value": 38276.56,
+  "contributions": 1200.0,
+  "withdrawals": 0.0,
+  "fees": 12.43,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Sterling Corporate Bond Acc GBP",
+      "units": 8577.073,
+      "value": 16106.39
+    },
+    {
+      "fund_name": "Pennine Japan Equity C Acc",
+      "units": 942.479,
+      "value": 2967.0
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan C Acc",
+      "units": 4605.664,
+      "value": 7598.95
+    },
+    {
+      "fund_name": "Hartsop Japan Equity Inc",
+      "units": 2021.86,
+      "value": 11604.22
+    }
+  ]
+}

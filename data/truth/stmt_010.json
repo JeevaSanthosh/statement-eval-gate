@@ -1,0 +1,53 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 2739 0000",
+  "statement_start": "2025-01-01",
+  "statement_end": "2025-03-31",
+  "opening_value": 166744.59,
+  "closing_value": 163075.91,
+  "contributions": 1200.0,
+  "withdrawals": 0.0,
+  "fees": 65.93,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced Inc",
+      "units": 8797.576,
+      "value": 42177.49
+    },
+    {
+      "fund_name": "Meridian Emerging Markets Equity C Acc",
+      "units": 316.594,
+      "value": 503.03
+    },
+    {
+      "fund_name": "Meridian Global Property Securities Inc",
+      "units": 5806.161,
+      "value": 6056.31
+    },
+    {
+      "fund_name": "Larchmont Sterling Corporate Bond Inc",
+      "units": 647.736,
+      "value": 690.57
+    },
+    {
+      "fund_name": "Larchmont UK Equity Income Inc",
+      "units": 7714.222,
+      "value": 39667.16
+    },
+    {
+      "fund_name": "Wrekin Japan Equity Acc GBP",
+      "units": 1825.837,
+      "value": 11395.14
+    },
+    {
+      "fund_name": "Larchmont US Equity Tracker C Acc",
+      "units": 4823.692,
+      "value": 22120.16
+    },
+    {
+      "fund_name": "Saltmarsh US Equity Tracker C Acc",
+      "units": 7922.243,
+      "value": 40466.05
+    }
+  ]
+}

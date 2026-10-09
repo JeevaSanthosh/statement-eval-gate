@@ -1,0 +1,48 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/125905/48",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 65689.36,
+  "closing_value": 64238.43,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": 56.3,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Asia Pacific ex Japan C Acc",
+      "units": 2426.915,
+      "value": 7637.88
+    },
+    {
+      "fund_name": "Hartsop Japan Equity Acc GBP",
+      "units": 1434.951,
+      "value": 3365.41
+    },
+    {
+      "fund_name": "Pennine Short-Dated Bond Acc",
+      "units": 7562.488,
+      "value": 20469.39
+    },
+    {
+      "fund_name": "Calder European Smaller Companies Inc",
+      "units": 1543.469,
+      "value": 5554.54
+    },
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced Acc",
+      "units": 2889.879,
+      "value": 17189.17
+    },
+    {
+      "fund_name": "Pennine US Equity Tracker C Acc",
+      "units": 1062.947,
+      "value": 6779.63
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Acc",
+      "units": 549.402,
+      "value": 3242.41
+    }
+  ]
+}

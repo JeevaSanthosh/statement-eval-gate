@@ -1,0 +1,33 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW33089640",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 77561.21,
+  "closing_value": 79301.45,
+  "contributions": 1200.0,
+  "withdrawals": 3800.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh Emerging Markets Equity Acc GBP",
+      "units": 3329.446,
+      "value": 12859.98
+    },
+    {
+      "fund_name": "Pennine Multi-Asset Balanced C Acc",
+      "units": 8692.171,
+      "value": 14936.19
+    },
+    {
+      "fund_name": "Wrekin US Equity Tracker Acc GBP",
+      "units": 4797.029,
+      "value": 21608.99
+    },
+    {
+      "fund_name": "Saltmarsh Japan Equity C Acc",
+      "units": 4864.124,
+      "value": 29896.29
+    }
+  ]
+}

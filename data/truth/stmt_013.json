@@ -1,0 +1,33 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-32752368",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 39621.05,
+  "closing_value": 38706.33,
+  "contributions": 600.0,
+  "withdrawals": 0.0,
+  "fees": 10.67,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Global Equity Index Inc",
+      "units": 3817.28,
+      "value": 5242.85
+    },
+    {
+      "fund_name": "Hartsop Global Equity Index Acc",
+      "units": 8377.396,
+      "value": 7343.05
+    },
+    {
+      "fund_name": "Larchmont Asia Pacific ex Japan Acc",
+      "units": 7852.422,
+      "value": 12489.8
+    },
+    {
+      "fund_name": "Meridian Emerging Markets Equity Inc",
+      "units": 2811.739,
+      "value": 13630.63
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-31200624",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 127827.71,
+  "closing_value": 128287.17,
+  "contributions": 0.0,
+  "withdrawals": 1350.0,
+  "fees": 115.15,
+  "holdings": [
+    {
+      "fund_name": "Orwell US Equity Tracker C Acc",
+      "units": 6045.34,
+      "value": 29270.68
+    },
+    {
+      "fund_name": "Wrekin Asia Pacific ex Japan Acc GBP",
+      "units": 2073.832,
+      "value": 7074.84
+    },
+    {
+      "fund_name": "Larchmont Global Equity Index Acc GBP",
+      "units": 4889.391,
+      "value": 23328.88
+    },
+    {
+      "fund_name": "Orwell Global Equity Index Inc",
+      "units": 6630.857,
+      "value": 39670.71
+    },
+    {
+      "fund_name": "Calder Japan Equity Acc",
+      "units": 5119.082,
+      "value": 28942.06
+    }
+  ]
+}

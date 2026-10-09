@@ -1,0 +1,38 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-09319254",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 74768.94,
+  "closing_value": 78099.27,
+  "contributions": 300.0,
+  "withdrawals": 0.0,
+  "fees": 48.85,
+  "holdings": [
+    {
+      "fund_name": "Calder European Smaller Companies C Acc",
+      "units": 3119.219,
+      "value": 7789.62
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Acc GBP",
+      "units": 6661.731,
+      "value": 42401.17
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond C Acc",
+      "units": 2371.115,
+      "value": 10762.9
+    },
+    {
+      "fund_name": "Calder Global Equity Index Inc",
+      "units": 2735.493,
+      "value": 10878.33
+    },
+    {
+      "fund_name": "Pennine UK Gilt Tracker Acc",
+      "units": 3573.535,
+      "value": 6267.25
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW31646204",
+  "statement_start": "2025-04-01",
+  "statement_end": "2025-06-30",
+  "opening_value": 90458.73,
+  "closing_value": 93427.95,
+  "contributions": 1200.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Larchmont Global Property Securities Inc",
+      "units": 5342.636,
+      "value": 30496.91
+    },
+    {
+      "fund_name": "Pennine Global Property Securities Acc GBP",
+      "units": 1359.096,
+      "value": 5524.99
+    },
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Inc",
+      "units": 6729.344,
+      "value": 11686.46
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond Inc",
+      "units": 7441.084,
+      "value": 45719.59
+    }
+  ]
+}

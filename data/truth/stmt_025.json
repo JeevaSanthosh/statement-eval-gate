@@ -1,0 +1,28 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-33142044",
+  "statement_start": "2024-07-01",
+  "statement_end": "2024-09-30",
+  "opening_value": 57368.96,
+  "closing_value": 57616.36,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": 39.06,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Global Property Securities C Acc",
+      "units": 4419.435,
+      "value": 20168.13
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Acc GBP",
+      "units": 5619.8,
+      "value": 21261.4
+    },
+    {
+      "fund_name": "Saltmarsh European Smaller Companies Acc GBP",
+      "units": 7221.95,
+      "value": 16186.83
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW89674035",
+  "statement_start": "2024-04-01",
+  "statement_end": "2024-06-30",
+  "opening_value": 122279.09,
+  "closing_value": 117627.79,
+  "contributions": 600.0,
+  "withdrawals": 600.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Orwell Global Property Securities C Acc",
+      "units": 2311.148,
+      "value": 2185.47
+    },
+    {
+      "fund_name": "Pennine Emerging Markets Equity Acc",
+      "units": 8517.911,
+      "value": 19621.85
+    },
+    {
+      "fund_name": "Calder US Equity Tracker Inc",
+      "units": 5063.361,
+      "value": 14458.06
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond C Acc",
+      "units": 5214.918,
+      "value": 31929.81
+    },
+    {
+      "fund_name": "Saltmarsh Multi-Asset Balanced Inc",
+      "units": 8524.138,
+      "value": 49432.6
+    }
+  ]
+}

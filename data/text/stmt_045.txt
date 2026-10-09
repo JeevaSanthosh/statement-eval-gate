@@ -1,0 +1,18 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-01199098
+Statement period: 01 Apr 2025 to 30 Jun 2025
+Summary
+Opening value £35,932.27
+Payments in £1,200.00
+Withdrawals £0.00
+Charges £12.43
+Closing value £38,276.56
+Your investments
+Fund Units Price Value
+Hartsop Sterling Corporate Bond Acc GBP 8,577.073 1.8778 £16,106.39
+Pennine Japan Equity C Acc 942.479 3.1481 £2,967.00
+Pennine Asia Pacific ex Japan C Acc 4,605.664 1.6499 £7,598.95
+Hartsop Japan Equity Inc 2,021.860 5.7394 £11,604.22
+Total £38,276.56

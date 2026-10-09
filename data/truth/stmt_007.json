@@ -1,0 +1,28 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/112532/87",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 72509.11,
+  "closing_value": 72863.93,
+  "contributions": 600.0,
+  "withdrawals": 0.0,
+  "fees": 49.2,
+  "holdings": [
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Acc GBP",
+      "units": 5597.957,
+      "value": 25988.06
+    },
+    {
+      "fund_name": "Pennine UK Gilt Tracker Acc",
+      "units": 6741.874,
+      "value": 37942.1
+    },
+    {
+      "fund_name": "Pennine European Smaller Companies C Acc",
+      "units": 5993.25,
+      "value": 8933.77
+    }
+  ]
+}

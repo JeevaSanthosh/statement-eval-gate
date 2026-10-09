@@ -1,0 +1,28 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/125905/48
+This statement covers 1 October 2025 – 31 December 2025.
+On 1 October 2025 your pension was worth £65,689.36. On 31 December 2025 it was worth
+£64,238.43.
+Transactions
+Date Description Amount
+25 October 2025 Monthly contribution £150.00
+25 October 2025 Annual management charge -£18.77
+7 November 2025 Monthly contribution £150.00
+7 November 2025 Annual management charge -£18.77
+12 December 2025 Monthly contribution £150.00
+12 December 2025 Annual management charge -£18.76
+Where your pension is invested
+Fund Units Value
+Larchmont Asia Pacific ex Japan C Acc 2,426.915 £7,637.88
+Hartsop Japan Equity Acc GBP 1,434.951 £3,365.41
+Pennine Short-Dated Bond Acc 7,562.488 £20,469.39
+Calder European Smaller Companies Inc 1,543.469 £5,554.54
+Larchmont Multi-Asset Balanced Acc 2,889.879 £17,189.17
+Pennine US Equity Tracker C Acc 1,062.947 £6,779.63
+Larchmont Japan Equity Acc 549.402 £3,242.41
+Period summary
+Total contributions £450.00
+Total withdrawals £0.00
+Total charges £56.30

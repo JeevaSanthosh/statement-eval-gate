@@ -1,0 +1,43 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 8309 2314",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 93610.33,
+  "closing_value": 94892.73,
+  "contributions": 600.0,
+  "withdrawals": 2500.0,
+  "fees": 83.98,
+  "holdings": [
+    {
+      "fund_name": "Pennine US Equity Tracker Acc",
+      "units": 6545.949,
+      "value": 37501.17
+    },
+    {
+      "fund_name": "Larchmont European Smaller Companies Acc GBP",
+      "units": 5745.118,
+      "value": 9684.24
+    },
+    {
+      "fund_name": "Meridian Global Equity Index Acc GBP",
+      "units": 7853.612,
+      "value": 38372.81
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Inc",
+      "units": 1072.236,
+      "value": 3183.85
+    },
+    {
+      "fund_name": "Meridian Asia Pacific ex Japan Acc GBP",
+      "units": 6056.633,
+      "value": 4970.37
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond C Acc",
+      "units": 419.181,
+      "value": 1180.29
+    }
+  ]
+}

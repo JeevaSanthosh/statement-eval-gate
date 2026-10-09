@@ -1,0 +1,43 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-20963547",
+  "statement_start": "2025-04-01",
+  "statement_end": "2025-06-30",
+  "opening_value": 109160.21,
+  "closing_value": 107512.83,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 100.47,
+  "holdings": [
+    {
+      "fund_name": "Meridian Short-Dated Bond Acc",
+      "units": 6318.76,
+      "value": 25959.62
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Acc GBP",
+      "units": 1131.311,
+      "value": 6073.36
+    },
+    {
+      "fund_name": "Pennine Global Equity Index Acc GBP",
+      "units": 4585.398,
+      "value": 7410.19
+    },
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Acc",
+      "units": 7391.244,
+      "value": 40492.58
+    },
+    {
+      "fund_name": "Saltmarsh Sterling Corporate Bond Acc",
+      "units": 1982.23,
+      "value": 12201.74
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond Acc GBP",
+      "units": 7300.922,
+      "value": 15375.34
+    }
+  ]
+}

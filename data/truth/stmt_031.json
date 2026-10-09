@@ -1,0 +1,48 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/305854/17",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 98806.9,
+  "closing_value": 95605.88,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": 77.08,
+  "holdings": [
+    {
+      "fund_name": "Wrekin Global Equity Index Acc",
+      "units": 6069.146,
+      "value": 29546.45
+    },
+    {
+      "fund_name": "Hartsop US Equity Tracker C Acc",
+      "units": 2188.511,
+      "value": 9853.47
+    },
+    {
+      "fund_name": "Meridian Multi-Asset Balanced Inc",
+      "units": 6240.608,
+      "value": 21772.04
+    },
+    {
+      "fund_name": "Calder Global Equity Index Acc GBP",
+      "units": 1310.313,
+      "value": 7837.57
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond Acc",
+      "units": 5407.683,
+      "value": 6260.08
+    },
+    {
+      "fund_name": "Pennine Global Property Securities Inc",
+      "units": 2177.865,
+      "value": 13992.8
+    },
+    {
+      "fund_name": "Wrekin Asia Pacific ex Japan Acc",
+      "units": 2089.323,
+      "value": 6343.47
+    }
+  ]
+}

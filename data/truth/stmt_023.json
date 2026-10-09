@@ -1,0 +1,38 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/583586/50",
+  "statement_start": "2025-07-01",
+  "statement_end": "2025-09-30",
+  "opening_value": 104830.93,
+  "closing_value": 108570.7,
+  "contributions": 600.0,
+  "withdrawals": 0.0,
+  "fees": 71.89,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh European Smaller Companies Inc",
+      "units": 5312.862,
+      "value": 21057.37
+    },
+    {
+      "fund_name": "Pennine Multi-Asset Balanced Acc",
+      "units": 5929.94,
+      "value": 25077.38
+    },
+    {
+      "fund_name": "Saltmarsh US Equity Tracker C Acc",
+      "units": 3004.321,
+      "value": 15094.23
+    },
+    {
+      "fund_name": "Calder US Equity Tracker C Acc",
+      "units": 2350.165,
+      "value": 11410.38
+    },
+    {
+      "fund_name": "Hartsop Global Property Securities Acc GBP",
+      "units": 6879.244,
+      "value": 35931.34
+    }
+  ]
+}

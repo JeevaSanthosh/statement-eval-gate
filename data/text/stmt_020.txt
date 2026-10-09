@@ -1,0 +1,19 @@
+[Page 1]
+Kestrel Lane Wealth
+Portfolio valuation
+Client account KLW36512414
+Reporting period 1st April 2026 to 30th June 2026
+Portfolio value brought forward £103,017.90
+Money added £2,250.00
+Money withdrawn £0.00
+Portfolio value carried forward £102,031.31
+Investment Holding Market value
+Pennine Short-Dated Bond C Acc 3,292.264 £5,788.27
+Larchmont Sterling Corporate Bond C Acc 683.492 £588.92
+Larchmont US Equity Tracker Acc GBP 8,929.467 £45,339.73
+Saltmarsh UK Gilt Tracker Inc 792.387 £3,872.95
+Pennine US Equity Tracker Acc GBP 8,822.742 £35,404.11
+Pennine Asia Pacific ex Japan Inc 1,014.870 £3,639.93
+Wrekin Global Equity Index Inc 3,930.794 £7,397.40
+Charges for this period will be shown in your annual costs and charges report. Custody services are
+provided by Fernhill Nominees Limited.

@@ -1,0 +1,58 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 6132 5159",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 101711.46,
+  "closing_value": 103433.52,
+  "contributions": 3000.0,
+  "withdrawals": 0.0,
+  "fees": 78.75,
+  "holdings": [
+    {
+      "fund_name": "Wrekin UK Equity Income C Acc",
+      "units": 5288.283,
+      "value": 17183.03
+    },
+    {
+      "fund_name": "Meridian UK Gilt Tracker C Acc",
+      "units": 2209.59,
+      "value": 14132.07
+    },
+    {
+      "fund_name": "Meridian Sterling Corporate Bond C Acc",
+      "units": 6790.058,
+      "value": 18639.09
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond Inc",
+      "units": 451.972,
+      "value": 2891.2
+    },
+    {
+      "fund_name": "Wrekin Global Equity Index Acc GBP",
+      "units": 2334.379,
+      "value": 13146.63
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond Acc",
+      "units": 1090.802,
+      "value": 4933.12
+    },
+    {
+      "fund_name": "Calder Japan Equity Inc",
+      "units": 3233.498,
+      "value": 18970.43
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies C Acc",
+      "units": 2701.832,
+      "value": 3713.45
+    },
+    {
+      "fund_name": "Wrekin US Equity Tracker C Acc",
+      "units": 1821.877,
+      "value": 9824.5
+    }
+  ]
+}

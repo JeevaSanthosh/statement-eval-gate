@@ -1,0 +1,26 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/583586/50
+This statement covers 1 July 2025 – 30 September 2025.
+On 1 July 2025 your pension was worth £104,830.93. On 30 September 2025 it was worth
+£108,570.70.
+Transactions
+Date Description Amount
+18 July 2025 Monthly contribution £200.00
+18 July 2025 Annual management charge -£23.96
+9 August 2025 Monthly contribution £200.00
+9 August 2025 Annual management charge -£23.96
+12 September 2025 Monthly contribution £200.00
+12 September 2025 Annual management charge -£23.97
+Where your pension is invested
+Fund Units Value
+Saltmarsh European Smaller Companies Inc 5,312.862 £21,057.37
+Pennine Multi-Asset Balanced Acc 5,929.940 £25,077.38
+Saltmarsh US Equity Tracker C Acc 3,004.321 £15,094.23
+Calder US Equity Tracker C Acc 2,350.165 £11,410.38
+Hartsop Global Property Securities Acc GBP 6,879.244 £35,931.34
+Period summary
+Total contributions £600.00
+Total withdrawals £0.00
+Total charges £71.89

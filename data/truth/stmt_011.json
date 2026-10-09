@@ -1,0 +1,38 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/471213/45",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 53562.7,
+  "closing_value": 54312.3,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": 39.34,
+  "holdings": [
+    {
+      "fund_name": "Orwell UK Equity Income Inc",
+      "units": 6610.302,
+      "value": 21675.58
+    },
+    {
+      "fund_name": "Pennine UK Equity Income Acc",
+      "units": 1797.871,
+      "value": 7976.24
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Inc",
+      "units": 997.553,
+      "value": 1971.89
+    },
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced Acc",
+      "units": 3519.537,
+      "value": 3496.34
+    },
+    {
+      "fund_name": "Saltmarsh Sterling Corporate Bond Acc GBP",
+      "units": 3615.229,
+      "value": 19192.25
+    }
+  ]
+}

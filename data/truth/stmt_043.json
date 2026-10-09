@@ -1,0 +1,48 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/483752/55",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 101081.62,
+  "closing_value": 102376.78,
+  "contributions": 3000.0,
+  "withdrawals": 0.0,
+  "fees": 60.93,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh UK Gilt Tracker C Acc",
+      "units": 1728.25,
+      "value": 1583.35
+    },
+    {
+      "fund_name": "Saltmarsh Multi-Asset Balanced Acc",
+      "units": 6082.099,
+      "value": 26047.37
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Acc GBP",
+      "units": 2672.391,
+      "value": 5187.34
+    },
+    {
+      "fund_name": "Hartsop Sterling Corporate Bond C Acc",
+      "units": 7703.802,
+      "value": 46090.63
+    },
+    {
+      "fund_name": "Meridian Emerging Markets Equity C Acc",
+      "units": 2130.729,
+      "value": 8821.59
+    },
+    {
+      "fund_name": "Wrekin Japan Equity Inc",
+      "units": 5188.832,
+      "value": 13674.7
+    },
+    {
+      "fund_name": "Hartsop Japan Equity Inc",
+      "units": 366.11,
+      "value": 971.8
+    }
+  ]
+}

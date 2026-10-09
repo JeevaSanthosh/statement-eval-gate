@@ -1,0 +1,43 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW15921448",
+  "statement_start": "2025-07-01",
+  "statement_end": "2025-09-30",
+  "opening_value": 88732.33,
+  "closing_value": 86962.07,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh Japan Equity Inc",
+      "units": 5795.136,
+      "value": 16584.41
+    },
+    {
+      "fund_name": "Larchmont Japan Equity Inc",
+      "units": 740.478,
+      "value": 1032.44
+    },
+    {
+      "fund_name": "Larchmont UK Equity Income Acc GBP",
+      "units": 4885.824,
+      "value": 12181.82
+    },
+    {
+      "fund_name": "Orwell Global Equity Index Acc GBP",
+      "units": 5643.221,
+      "value": 30426.41
+    },
+    {
+      "fund_name": "Calder Asia Pacific ex Japan Inc",
+      "units": 4187.439,
+      "value": 9798.54
+    },
+    {
+      "fund_name": "Hartsop US Equity Tracker Acc",
+      "units": 3110.506,
+      "value": 16938.45
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW15636359",
+  "statement_start": "2024-04-01",
+  "statement_end": "2024-06-30",
+  "opening_value": 98690.66,
+  "closing_value": 101107.4,
+  "contributions": 1500.0,
+  "withdrawals": 2500.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Japan Equity Inc",
+      "units": 1036.962,
+      "value": 2447.5
+    },
+    {
+      "fund_name": "Calder UK Equity Income Acc GBP",
+      "units": 2737.068,
+      "value": 5327.45
+    },
+    {
+      "fund_name": "Hartsop Short-Dated Bond Acc GBP",
+      "units": 8762.938,
+      "value": 46345.05
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced C Acc",
+      "units": 8464.921,
+      "value": 46987.4
+    }
+  ]
+}

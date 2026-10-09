@@ -1,0 +1,18 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-01815908
+Statement period: 01 Oct 2024 to 31 Dec 2024
+Summary
+Opening value £21,021.22
+Payments in £2,250.00
+Withdrawals £0.00
+Charges £16.48
+Closing value £24,417.42
+Your investments
+Fund Units Price Value
+Hartsop Global Property Securities Inc 783.543 1.6624 £1,302.56
+Pennine Global Equity Index C Acc 5,940.309 0.8688 £5,160.70
+Orwell UK Gilt Tracker Inc 7,486.598 1.8394 £13,770.51
+Larchmont Japan Equity Inc 2,566.099 1.6304 £4,183.65
+Total £24,417.42

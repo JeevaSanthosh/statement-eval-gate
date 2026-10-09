@@ -1,0 +1,34 @@
+[Page 1]
+Brackenford Investments
+
+Quarterly Investment Statement
+
+Account number: BRK-40461297
+Statement period: 01 Apr 2024 to 30 Jun 2024
+
+Summary
+Opening value £97,934,59
+Payments in £450.00
+Withdrawals £4,050.00
+Charges £27.94
+Closing value £95,377.22
+Your investments
+Fund Units Price
+Larchmont Global Equity index Acc 4,274,392 3.5783
+Hartsop Global Equity Index C Acc 1,024.528 3.9652
+Pennine Global Equity index Acc 4.449.726 3.1068
+Saltmarsh Asia Pacific ex Japan Acc GBP 4,385.263 6.0616
+Orwell Multi-Asset Balanced Acc GBP 8.192.225 3.2272
+Saltmarsh Global Equity index C Acc 584,000 1.8875
+Meridian Global Property Securities inc 2.424.167 3.3303
+Total
+
+Value
+£15,295.22
+£4,062.46
+£13,824.20
+£26,581,63
+£26,438.13
+£1,102.30
+£8,073.28
+£95,377.22

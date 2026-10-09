@@ -1,0 +1,28 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/507469/47",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 96027.14,
+  "closing_value": 98783.47,
+  "contributions": 300.0,
+  "withdrawals": 0.0,
+  "fees": 75.05,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh Global Equity Index Acc",
+      "units": 7605.495,
+      "value": 26219.54
+    },
+    {
+      "fund_name": "Saltmarsh Short-Dated Bond Acc GBP",
+      "units": 5667.194,
+      "value": 24840.1
+    },
+    {
+      "fund_name": "Pennine Global Property Securities Acc GBP",
+      "units": 7773.347,
+      "value": 47723.83
+    }
+  ]
+}

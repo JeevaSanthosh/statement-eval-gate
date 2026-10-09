@@ -1,0 +1,43 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/883619/49",
+  "statement_start": "2025-07-01",
+  "statement_end": "2025-09-30",
+  "opening_value": 89063.27,
+  "closing_value": 83182.22,
+  "contributions": 0.0,
+  "withdrawals": 4900.0,
+  "fees": 47.17,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Asia Pacific ex Japan C Acc",
+      "units": 2405.325,
+      "value": 5565.14
+    },
+    {
+      "fund_name": "Calder UK Equity Income Acc GBP",
+      "units": 608.086,
+      "value": 667.84
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond Inc",
+      "units": 8763.099,
+      "value": 13592.1
+    },
+    {
+      "fund_name": "Saltmarsh Multi-Asset Balanced C Acc",
+      "units": 7818.261,
+      "value": 20900.74
+    },
+    {
+      "fund_name": "Meridian Japan Equity Acc",
+      "units": 4535.766,
+      "value": 7275.69
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies Acc GBP",
+      "units": 5462.376,
+      "value": 35180.71
+    }
+  ]
+}
