@@ -56,9 +56,11 @@ def test_gate_blocks_the_damaged_candidate(dataset, tmp_path):
     assert sloppy["slices"]["Kestrel Lane Wealth"]["f1"]["fees"] == 0.0
 
 
-def test_command_line_compare_writes_report_and_enforces(dataset, tmp_path):
+def test_command_line_compare_writes_report_and_enforces(dataset, tmp_path, monkeypatch):
     from seg.cli import main
 
+    # In CI this variable points at the job summary page; the stand-in report must not land there.
+    monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
     data, _ = dataset
     prompt = _prompt(tmp_path)
     for name in ("oracle", "sloppy"):
