@@ -1,7 +1,7 @@
 # What CI replays and scores on every pull request.
 # Change the prompt or model here, re-record locally against Ollama, commit the new cassettes.
 [candidate]
-prompt = "prompts/extract_v1.md"
+prompt = "prompts/extract_v2.md"
 provider = "ollama"
 model = "qwen3.5:4b"
 think = false       # Qwen3.5 thinks by default; off keeps extraction fast on a laptop. Remove for non-thinking models.

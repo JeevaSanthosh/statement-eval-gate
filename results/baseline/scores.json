@@ -2,8 +2,8 @@
  "run": {
   "provider": "ollama",
   "model": "qwen3.5:4b",
-  "prompt": "prompts/extract_v1.md",
-  "prompt_sha256": "995bee6f699ceff9cc549045474e44650fe457b48747a3b3a6f5296874393019",
+  "prompt": "prompts/extract_v2.md",
+  "prompt_sha256": "8b1767f9aab820cb12d94f34b06047dd51e818553b91d66bd984095c63404856",
   "options": {
    "temperature": 0,
    "seed": 42,
@@ -16,7 +16,7 @@
   "seg_version": "0.1.0",
   "finished_at": "2026-10-09T22:08:12+00:00"
  },
- "macro_f1": 0.9716,
+ "macro_f1": 0.9713,
  "fields": {
   "provider": {
    "tp": 60,
@@ -91,18 +91,18 @@
    "f1": 1.0
   },
   "holdings": {
-   "tp": 267,
-   "fp": 74,
-   "fn": 74,
-   "precision": 0.783,
-   "recall": 0.783,
-   "f1": 0.783
+   "tp": 266,
+   "fp": 75,
+   "fn": 75,
+   "precision": 0.7801,
+   "recall": 0.7801,
+   "f1": 0.7801
   }
  },
  "slices": {
   "Ashcombe Pensions": {
    "documents": 15,
-   "macro_f1": 0.9849,
+   "macro_f1": 0.9836,
    "f1": {
     "provider": 1.0,
     "account_number": 1.0,
@@ -113,7 +113,7 @@
     "contributions": 1.0,
     "withdrawals": 1.0,
     "fees": 1.0,
-    "holdings": 0.8493
+    "holdings": 0.8356
    }
   },
   "Brackenford Investments": {
@@ -134,7 +134,7 @@
   },
   "Kestrel Lane Wealth": {
    "documents": 15,
-   "macro_f1": 0.9664,
+   "macro_f1": 0.9678,
    "f1": {
     "provider": 1.0,
     "account_number": 1.0,
@@ -145,12 +145,12 @@
     "contributions": 1.0,
     "withdrawals": 1.0,
     "fees": 1.0,
-    "holdings": 0.7971
+    "holdings": 0.8116
    }
   },
   "Tidewell Platform": {
    "documents": 15,
-   "macro_f1": 0.98,
+   "macro_f1": 0.9792,
    "f1": {
     "provider": 1.0,
     "account_number": 0.9333,
@@ -161,7 +161,7 @@
     "contributions": 1.0,
     "withdrawals": 1.0,
     "fees": 1.0,
-    "holdings": 0.8667
+    "holdings": 0.8583
    }
   },
   "native PDF": {
@@ -182,7 +182,7 @@
   },
   "scanned": {
    "documents": 12,
-   "macro_f1": 0.885,
+   "macro_f1": 0.8836,
    "f1": {
     "provider": 1.0,
     "account_number": 0.9167,
@@ -193,16 +193,16 @@
     "contributions": 1.0,
     "withdrawals": 1.0,
     "fees": 1.0,
-    "holdings": 0.1831
+    "holdings": 0.169
    }
   }
  },
  "ops": {
   "documents": 60,
   "invalid_responses": 0,
-  "latency_ms_p50": 116950,
-  "latency_ms_p95": 153068,
-  "mean_completion_tokens": 429.8
+  "latency_ms_p50": 113299,
+  "latency_ms_p95": 152979,
+  "mean_completion_tokens": 429.3
  },
  "documents": {
   "stmt_001": {
@@ -616,9 +616,9 @@
     0
    ],
    "holdings": [
-    4,
-    1,
-    1
+    5,
+    0,
+    0
    ]
   },
   "stmt_009": {
@@ -1552,9 +1552,9 @@
     0
    ],
    "holdings": [
-    1,
-    5,
-    5
+    0,
+    6,
+    6
    ]
   },
   "stmt_027": {
@@ -2436,9 +2436,9 @@
     0
    ],
    "holdings": [
-    6,
-    1,
-    1
+    7,
+    0,
+    0
    ]
   },
   "stmt_044": {
@@ -3268,9 +3268,9 @@
     0
    ],
    "holdings": [
-    3,
-    0,
-    0
+    1,
+    2,
+    2
    ]
   },
   "stmt_060": {
@@ -3353,7 +3353,7 @@
    {
     "id": "stmt_052",
     "truth": 86962.07,
-    "predicted": 88732.33
+    "predicted": 16584.41
    }
   ],
   "contributions": [],
@@ -3364,11 +3364,6 @@
     "id": "stmt_004",
     "missed": 5,
     "extra": 5
-   },
-   {
-    "id": "stmt_008",
-    "missed": 1,
-    "extra": 1
    },
    {
     "id": "stmt_013",
@@ -3397,8 +3392,8 @@
    },
    {
     "id": "stmt_026",
-    "missed": 5,
-    "extra": 5
+    "missed": 6,
+    "extra": 6
    },
    {
     "id": "stmt_028",
@@ -3441,11 +3436,6 @@
     "extra": 5
    },
    {
-    "id": "stmt_043",
-    "missed": 1,
-    "extra": 1
-   },
-   {
     "id": "stmt_045",
     "missed": 1,
     "extra": 1
@@ -3464,6 +3454,11 @@
     "id": "stmt_057",
     "missed": 4,
     "extra": 4
+   },
+   {
+    "id": "stmt_059",
+    "missed": 2,
+    "extra": 2
    }
   ]
  }
