@@ -1,0 +1,25 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/208456/37
+This statement covers 1 October 2024 – 31 December 2024.
+On 1 October 2024 your pension was worth £80,977.40. On 31 December 2024 it was worth
+£83,716.87.
+Transactions
+Date Description Amount
+23 October 2024 Monthly contribution £400.00
+23 October 2024 Annual management charge -£21.84
+2 November 2024 Monthly contribution £400.00
+2 November 2024 Withdrawal -£2,150.00
+2 November 2024 Annual management charge -£21.84
+15 December 2024 Monthly contribution £400.00
+15 December 2024 Annual management charge -£21.84
+Where your pension is invested
+Fund Units Value
+Calder Global Equity Index C Acc 6,399.130 £22,967.21
+Orwell Emerging Markets Equity C Acc 3,864.986 £18,660.34
+Hartsop European Smaller Companies Inc 6,534.507 £42,089.32
+Period summary
+Total contributions £1,200.00
+Total withdrawals £2,150.00
+Total charges £65.52

@@ -1,0 +1,38 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/635766/88",
+  "statement_start": "2025-04-01",
+  "statement_end": "2025-06-30",
+  "opening_value": 78167.06,
+  "closing_value": 79123.55,
+  "contributions": 1200.0,
+  "withdrawals": 0.0,
+  "fees": 44.99,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh European Smaller Companies C Acc",
+      "units": 3616.858,
+      "value": 6480.61
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond C Acc",
+      "units": 5869.966,
+      "value": 14745.65
+    },
+    {
+      "fund_name": "Hartsop Emerging Markets Equity Acc GBP",
+      "units": 7217.577,
+      "value": 13362.1
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced Acc GBP",
+      "units": 5792.381,
+      "value": 22089.16
+    },
+    {
+      "fund_name": "Orwell Global Equity Index Acc",
+      "units": 3799.746,
+      "value": 22446.03
+    }
+  ]
+}

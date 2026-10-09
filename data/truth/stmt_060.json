@@ -1,0 +1,28 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW72844177",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 66148.32,
+  "closing_value": 65007.6,
+  "contributions": 750.0,
+  "withdrawals": 900.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Acc GBP",
+      "units": 1302.441,
+      "value": 6372.76
+    },
+    {
+      "fund_name": "Calder Global Equity Index Acc",
+      "units": 4856.014,
+      "value": 12436.42
+    },
+    {
+      "fund_name": "Meridian UK Equity Income Inc",
+      "units": 7509.065,
+      "value": 46198.42
+    }
+  ]
+}

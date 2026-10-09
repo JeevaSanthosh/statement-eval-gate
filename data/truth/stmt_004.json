@@ -1,0 +1,38 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW48347824",
+  "statement_start": "2024-07-01",
+  "statement_end": "2024-09-30",
+  "opening_value": 131706.83,
+  "closing_value": 128447.44,
+  "contributions": 450.0,
+  "withdrawals": 3400.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Orwell Short-Dated Bond Acc GBP",
+      "units": 8395.242,
+      "value": 49681.26
+    },
+    {
+      "fund_name": "Meridian Global Equity Index Acc",
+      "units": 863.8,
+      "value": 3280.84
+    },
+    {
+      "fund_name": "Pennine European Smaller Companies Inc",
+      "units": 6721.722,
+      "value": 23532.7
+    },
+    {
+      "fund_name": "Meridian US Equity Tracker C Acc",
+      "units": 7290.6,
+      "value": 40994.76
+    },
+    {
+      "fund_name": "Hartsop Asia Pacific ex Japan C Acc",
+      "units": 2143.679,
+      "value": 10957.88
+    }
+  ]
+}

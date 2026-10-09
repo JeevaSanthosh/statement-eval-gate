@@ -1,0 +1,48 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 7682 3971",
+  "statement_start": "2024-01-01",
+  "statement_end": "2024-03-31",
+  "opening_value": 118622.64,
+  "closing_value": 123255.13,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 56.84,
+  "holdings": [
+    {
+      "fund_name": "Wrekin UK Gilt Tracker Inc",
+      "units": 3484.503,
+      "value": 4048.48
+    },
+    {
+      "fund_name": "Meridian UK Gilt Tracker Acc GBP",
+      "units": 8922.581,
+      "value": 25286.17
+    },
+    {
+      "fund_name": "Wrekin US Equity Tracker Inc",
+      "units": 5178.8,
+      "value": 21394.39
+    },
+    {
+      "fund_name": "Larchmont Multi-Asset Balanced Inc",
+      "units": 1286.289,
+      "value": 6151.13
+    },
+    {
+      "fund_name": "Hartsop Short-Dated Bond Acc",
+      "units": 8238.892,
+      "value": 48980.59
+    },
+    {
+      "fund_name": "Hartsop UK Equity Income C Acc",
+      "units": 893.458,
+      "value": 1729.46
+    },
+    {
+      "fund_name": "Orwell European Smaller Companies Acc",
+      "units": 3859.218,
+      "value": 15664.91
+    }
+  ]
+}

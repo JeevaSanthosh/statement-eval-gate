@@ -1,0 +1,24 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/828288/07
+This statement covers 1 April 2026 – 30 June 2026.
+On 1 April 2026 your pension was worth £47,674.04. On 30 June 2026 it was worth £49,735.68.
+Transactions
+Date Description Amount
+4 April 2026 Monthly contribution £200.00
+4 April 2026 Annual management charge -£4.68
+6 May 2026 Monthly contribution £200.00
+6 May 2026 Annual management charge -£4.68
+9 June 2026 Monthly contribution £200.00
+9 June 2026 Annual management charge -£4.69
+Where your pension is invested
+Fund Units Value
+Meridian Sterling Corporate Bond Inc 790.333 £4,489.49
+Wrekin Short-Dated Bond Acc GBP 636.938 £3,641.90
+Meridian Asia Pacific ex Japan Inc 4,105.811 £11,221.86
+Orwell Short-Dated Bond C Acc 4,995.455 £30,382.43
+Period summary
+Total contributions £600.00
+Total withdrawals £0.00
+Total charges £14.05

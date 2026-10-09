@@ -1,0 +1,26 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/196592/65
+This statement covers 1 January 2024 – 31 March 2024.
+On 1 January 2024 your pension was worth £83,877.51. On 31 March 2024 it was worth
+£82,938.11.
+Transactions
+Date Description Amount
+25 January 2024 Monthly contribution £150.00
+25 January 2024 Annual management charge -£7.13
+5 February 2024 Monthly contribution £150.00
+5 February 2024 Annual management charge -£7.13
+13 March 2024 Monthly contribution £150.00
+13 March 2024 Annual management charge -£7.14
+Where your pension is invested
+Fund Units Value
+Calder Japan Equity Acc GBP 3,715.901 £14,776.79
+Saltmarsh Global Equity Index C Acc 846.347 £5,114.53
+Calder European Smaller Companies Acc GBP 962.048 £1,530.56
+Calder Short-Dated Bond Acc GBP 6,065.722 £27,008.42
+Larchmont Asia Pacific ex Japan Inc 7,268.079 £34,507.81
+Period summary
+Total contributions £450.00
+Total withdrawals £0.00
+Total charges £21.40

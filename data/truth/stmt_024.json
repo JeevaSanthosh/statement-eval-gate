@@ -1,0 +1,43 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW40871523",
+  "statement_start": "2025-04-01",
+  "statement_end": "2025-06-30",
+  "opening_value": 99476.9,
+  "closing_value": 101231.22,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Inc",
+      "units": 6297.878,
+      "value": 31190.08
+    },
+    {
+      "fund_name": "Calder Emerging Markets Equity Inc",
+      "units": 472.935,
+      "value": 2788.35
+    },
+    {
+      "fund_name": "Wrekin Emerging Markets Equity Inc",
+      "units": 618.429,
+      "value": 883.72
+    },
+    {
+      "fund_name": "Orwell UK Gilt Tracker Acc",
+      "units": 8616.206,
+      "value": 54560.84
+    },
+    {
+      "fund_name": "Wrekin UK Equity Income Acc GBP",
+      "units": 4747.725,
+      "value": 3867.74
+    },
+    {
+      "fund_name": "Pennine Japan Equity Acc GBP",
+      "units": 2046.254,
+      "value": 7940.49
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/471213/45
+This statement covers 1 January 2026 – 31 March 2026.
+On 1 January 2026 your pension was worth £53,562.70. On 31 March 2026 it was worth
+£54,312.30.
+Transactions
+Date Description Amount
+5 January 2026 Monthly contribution £150.00
+5 January 2026 Annual management charge -£13.11
+9 February 2026 Monthly contribution £150.00
+9 February 2026 Annual management charge -£13.11
+20 March 2026 Monthly contribution £150.00
+20 March 2026 Annual management charge -£13.12
+Where your pension is invested
+Fund Units Value
+Orwell UK Equity Income Inc 6,610.302 £21,675.58
+Pennine UK Equity Income Acc 1,797.871 £7,976.24
+Larchmont Japan Equity Inc 997.553 £1,971.89
+Larchmont Multi-Asset Balanced Acc 3,519.537 £3,496.34
+Saltmarsh Sterling Corporate Bond Acc GBP 3,615.229 £19,192.25
+Period summary
+Total contributions £450.00
+Total withdrawals £0.00
+Total charges £39.34

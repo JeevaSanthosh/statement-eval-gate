@@ -1,0 +1,24 @@
+[Page 1]
+Brackenford Investments
+
+Quarterly Investment Statement
+
+Account number: BRK-56356956
+Statement period: 01 Jul 2024 to 30 Sep 2024
+
+Summary
+Opening value £129,487.67
+Payments in £2.250.00
+Withdrawals £0.00
+Charges £86.62
+Closing vaiue £138,937.87
+Your investments
+Fund Units Price Value
+Saltmarsh Japan Equity Inc §,512.379 2.3775 £13,105.46
+Hartsop UK Equity Income Ace 7.557.138 1.3418 £10,140.13
+Saitmarsh Short-Dated Bond Acc 7.712.116 6.0556 £46,701.59
+Larchmont UK Gilt Tracker C Acc 8.960.571 2.3315 £20,891.49
+Hartsop Sterling Corporate Bond Acc GBP 5,690,783 4.4032 £25,057.46
+Orwell UK Equity Income Acc 6,343,377 3.1543 £20,008.87
+Wrekin Multi-Asset Balanced Acc GBP 966.074 3.1394 £3,032.87
+Total £138,937.87

@@ -1,0 +1,33 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW39665799",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 41639.91,
+  "closing_value": 40650.29,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Pennine UK Gilt Tracker Inc",
+      "units": 581.631,
+      "value": 1736.85
+    },
+    {
+      "fund_name": "Calder Global Equity Index Acc GBP",
+      "units": 5887.139,
+      "value": 20846.16
+    },
+    {
+      "fund_name": "Saltmarsh Emerging Markets Equity Acc",
+      "units": 4789.0,
+      "value": 9179.71
+    },
+    {
+      "fund_name": "Hartsop Global Property Securities Acc",
+      "units": 2358.851,
+      "value": 8887.57
+    }
+  ]
+}

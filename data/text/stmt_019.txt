@@ -1,0 +1,29 @@
+[Page 1]
+Ashcombe Pensions
+
+Your pension statement
+
+Member number: ASP/507469/47
+This statement covers 1 January 2026 - 31 March 2026.
+
+On 1 January 2026 your pension was worth £96.027.14. On 31 March 2026 it was worth
+£98,783.47.
+
+Transactions
+Date Description Amount
+12 January 2026 Monthly contribution £100.00
+12 January 2026 Annual management charge £25.02
+14 February 2026 Monthly contribution £100.00
+14 February 2026 Annual management charge -£25.02
+1 March 2026 Monthly contribution £100.00
+1 March 2026 Annual management charge £25.01
+Where your pension is invested
+Fund Units Value
+Saltmarsh Global Equity Index Acc 7,605,495 £26,219.54
+Saltmarsh Short-Dated Bond Acc GBP 5.687.194 £24,840.10
+Pennine Giobai Property Securities Acc GBP 7.773.347 £47,723.83
+Period summary
+Total contributions £300.00
+Total withdrawais £0.00
+
+Total charges £75.05

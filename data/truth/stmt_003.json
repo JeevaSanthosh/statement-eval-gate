@@ -1,0 +1,33 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/828288/07",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 47674.04,
+  "closing_value": 49735.68,
+  "contributions": 600.0,
+  "withdrawals": 0.0,
+  "fees": 14.05,
+  "holdings": [
+    {
+      "fund_name": "Meridian Sterling Corporate Bond Inc",
+      "units": 790.333,
+      "value": 4489.49
+    },
+    {
+      "fund_name": "Wrekin Short-Dated Bond Acc GBP",
+      "units": 636.938,
+      "value": 3641.9
+    },
+    {
+      "fund_name": "Meridian Asia Pacific ex Japan Inc",
+      "units": 4105.811,
+      "value": 11221.86
+    },
+    {
+      "fund_name": "Orwell Short-Dated Bond C Acc",
+      "units": 4995.455,
+      "value": 30382.43
+    }
+  ]
+}

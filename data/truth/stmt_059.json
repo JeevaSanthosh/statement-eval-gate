@@ -1,0 +1,28 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/208456/37",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 80977.4,
+  "closing_value": 83716.87,
+  "contributions": 1200.0,
+  "withdrawals": 2150.0,
+  "fees": 65.52,
+  "holdings": [
+    {
+      "fund_name": "Calder Global Equity Index C Acc",
+      "units": 6399.13,
+      "value": 22967.21
+    },
+    {
+      "fund_name": "Orwell Emerging Markets Equity C Acc",
+      "units": 3864.986,
+      "value": 18660.34
+    },
+    {
+      "fund_name": "Hartsop European Smaller Companies Inc",
+      "units": 6534.507,
+      "value": 42089.32
+    }
+  ]
+}

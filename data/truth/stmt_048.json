@@ -1,0 +1,38 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW96863628",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 43507.88,
+  "closing_value": 43533.77,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Inc",
+      "units": 1725.137,
+      "value": 4657.63
+    },
+    {
+      "fund_name": "Orwell Sterling Corporate Bond Acc GBP",
+      "units": 6559.72,
+      "value": 23271.64
+    },
+    {
+      "fund_name": "Calder Global Property Securities Inc",
+      "units": 456.901,
+      "value": 2546.65
+    },
+    {
+      "fund_name": "Hartsop UK Equity Income C Acc",
+      "units": 7329.685,
+      "value": 8281.22
+    },
+    {
+      "fund_name": "Saltmarsh Multi-Asset Balanced Inc",
+      "units": 4036.362,
+      "value": 4776.63
+    }
+  ]
+}

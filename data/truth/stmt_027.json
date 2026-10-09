@@ -1,0 +1,28 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/673302/61",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 51566.38,
+  "closing_value": 51598.14,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 35.32,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh Sterling Corporate Bond Inc",
+      "units": 5050.209,
+      "value": 6794.1
+    },
+    {
+      "fund_name": "Meridian US Equity Tracker Acc GBP",
+      "units": 4982.053,
+      "value": 26362.72
+    },
+    {
+      "fund_name": "Hartsop US Equity Tracker Acc GBP",
+      "units": 5376.538,
+      "value": 18441.32
+    }
+  ]
+}

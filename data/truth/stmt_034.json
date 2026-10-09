@@ -1,0 +1,53 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 1068 0382",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 137639.61,
+  "closing_value": 143115.3,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 126.89,
+  "holdings": [
+    {
+      "fund_name": "Meridian Japan Equity Inc",
+      "units": 2308.471,
+      "value": 9349.23
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond Acc",
+      "units": 2037.743,
+      "value": 3381.33
+    },
+    {
+      "fund_name": "Orwell UK Gilt Tracker Inc",
+      "units": 6710.5,
+      "value": 42384.94
+    },
+    {
+      "fund_name": "Pennine Multi-Asset Balanced Acc GBP",
+      "units": 6420.085,
+      "value": 8606.8
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies Acc GBP",
+      "units": 3942.791,
+      "value": 21573.85
+    },
+    {
+      "fund_name": "Wrekin Sterling Corporate Bond Acc GBP",
+      "units": 8708.528,
+      "value": 51838.37
+    },
+    {
+      "fund_name": "Pennine Short-Dated Bond Acc",
+      "units": 671.991,
+      "value": 3423.63
+    },
+    {
+      "fund_name": "Pennine Emerging Markets Equity Inc",
+      "units": 1609.565,
+      "value": 2557.15
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-73294763",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 55513.47,
+  "closing_value": 56126.69,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 26.28,
+  "holdings": [
+    {
+      "fund_name": "Orwell Sterling Corporate Bond Acc GBP",
+      "units": 6275.306,
+      "value": 9486.3
+    },
+    {
+      "fund_name": "Saltmarsh European Smaller Companies C Acc",
+      "units": 8232.371,
+      "value": 8222.87
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond Acc",
+      "units": 5334.204,
+      "value": 17413.33
+    },
+    {
+      "fund_name": "Hartsop Global Equity Index C Acc",
+      "units": 6468.587,
+      "value": 21004.19
+    }
+  ]
+}

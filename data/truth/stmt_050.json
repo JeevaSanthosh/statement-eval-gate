@@ -1,0 +1,58 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 8522 5629",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 148400.46,
+  "closing_value": 153407.39,
+  "contributions": 1200.0,
+  "withdrawals": 0.0,
+  "fees": 81.11,
+  "holdings": [
+    {
+      "fund_name": "Wrekin Global Property Securities Inc",
+      "units": 7857.539,
+      "value": 24798.94
+    },
+    {
+      "fund_name": "Calder UK Equity Income C Acc",
+      "units": 8918.391,
+      "value": 8406.24
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced Inc",
+      "units": 7636.586,
+      "value": 41780.18
+    },
+    {
+      "fund_name": "Wrekin Japan Equity Acc",
+      "units": 3393.019,
+      "value": 18741.56
+    },
+    {
+      "fund_name": "Larchmont UK Gilt Tracker Inc",
+      "units": 1954.261,
+      "value": 9945.83
+    },
+    {
+      "fund_name": "Larchmont European Smaller Companies C Acc",
+      "units": 4237.286,
+      "value": 13319.07
+    },
+    {
+      "fund_name": "Orwell US Equity Tracker Inc",
+      "units": 1801.268,
+      "value": 9655.53
+    },
+    {
+      "fund_name": "Wrekin Short-Dated Bond C Acc",
+      "units": 6589.208,
+      "value": 8614.16
+    },
+    {
+      "fund_name": "Calder Emerging Markets Equity Acc",
+      "units": 8803.066,
+      "value": 18145.88
+    }
+  ]
+}

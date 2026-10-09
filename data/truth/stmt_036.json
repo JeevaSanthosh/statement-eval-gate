@@ -1,0 +1,28 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW19237739",
+  "statement_start": "2025-01-01",
+  "statement_end": "2025-03-31",
+  "opening_value": 30141.04,
+  "closing_value": 29642.07,
+  "contributions": 450.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Calder US Equity Tracker Acc GBP",
+      "units": 1555.253,
+      "value": 2783.89
+    },
+    {
+      "fund_name": "Wrekin UK Gilt Tracker Acc",
+      "units": 6894.061,
+      "value": 22246.94
+    },
+    {
+      "fund_name": "Pennine Emerging Markets Equity Acc GBP",
+      "units": 3068.77,
+      "value": 4611.24
+    }
+  ]
+}

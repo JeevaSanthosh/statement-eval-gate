@@ -1,0 +1,38 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW52521507",
+  "statement_start": "2025-01-01",
+  "statement_end": "2025-03-31",
+  "opening_value": 149112.39,
+  "closing_value": 150495.4,
+  "contributions": 600.0,
+  "withdrawals": 1950.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Global Property Securities Acc GBP",
+      "units": 7433.557,
+      "value": 39184.16
+    },
+    {
+      "fund_name": "Wrekin Global Property Securities Acc",
+      "units": 7842.584,
+      "value": 19638.9
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond Inc",
+      "units": 8649.999,
+      "value": 33134.05
+    },
+    {
+      "fund_name": "Pennine Japan Equity Acc",
+      "units": 8515.613,
+      "value": 12435.16
+    },
+    {
+      "fund_name": "Pennine UK Equity Income Acc",
+      "units": 8717.401,
+      "value": 46103.13
+    }
+  ]
+}

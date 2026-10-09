@@ -1,0 +1,48 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-56356956",
+  "statement_start": "2024-07-01",
+  "statement_end": "2024-09-30",
+  "opening_value": 129487.67,
+  "closing_value": 138937.87,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": 86.62,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh Japan Equity Inc",
+      "units": 5512.379,
+      "value": 13105.46
+    },
+    {
+      "fund_name": "Hartsop UK Equity Income Acc",
+      "units": 7557.138,
+      "value": 10140.13
+    },
+    {
+      "fund_name": "Saltmarsh Short-Dated Bond Acc",
+      "units": 7712.116,
+      "value": 46701.59
+    },
+    {
+      "fund_name": "Larchmont UK Gilt Tracker C Acc",
+      "units": 8960.571,
+      "value": 20891.49
+    },
+    {
+      "fund_name": "Hartsop Sterling Corporate Bond Acc GBP",
+      "units": 5690.783,
+      "value": 25057.46
+    },
+    {
+      "fund_name": "Orwell UK Equity Income Acc",
+      "units": 6343.377,
+      "value": 20008.87
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced Acc GBP",
+      "units": 966.074,
+      "value": 3032.87
+    }
+  ]
+}

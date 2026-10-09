@@ -1,0 +1,33 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/528862/41",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 68305.09,
+  "closing_value": 71333.29,
+  "contributions": 300.0,
+  "withdrawals": 0.0,
+  "fees": 18.08,
+  "holdings": [
+    {
+      "fund_name": "Meridian Sterling Corporate Bond C Acc",
+      "units": 5955.322,
+      "value": 22122.37
+    },
+    {
+      "fund_name": "Wrekin Emerging Markets Equity Acc GBP",
+      "units": 1361.295,
+      "value": 1462.4
+    },
+    {
+      "fund_name": "Wrekin Short-Dated Bond Inc",
+      "units": 7086.784,
+      "value": 26534.89
+    },
+    {
+      "fund_name": "Saltmarsh Japan Equity Inc",
+      "units": 4490.958,
+      "value": 21213.63
+    }
+  ]
+}

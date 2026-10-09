@@ -1,0 +1,25 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/883619/49
+This statement covers 1 July 2025 – 30 September 2025.
+On 1 July 2025 your pension was worth £89,063.27. On 30 September 2025 it was worth
+£83,182.22.
+Transactions
+Date Description Amount
+1 July 2025 Annual management charge -£15.72
+8 August 2025 Withdrawal -£4,900.00
+8 August 2025 Annual management charge -£15.72
+10 September 2025 Annual management charge -£15.73
+Where your pension is invested
+Fund Units Value
+Hartsop Asia Pacific ex Japan C Acc 2,405.325 £5,565.14
+Calder UK Equity Income Acc GBP 608.086 £667.84
+Orwell Short-Dated Bond Inc 8,763.099 £13,592.10
+Saltmarsh Multi-Asset Balanced C Acc 7,818.261 £20,900.74
+Meridian Japan Equity Acc 4,535.766 £7,275.69
+Meridian European Smaller Companies Acc GBP 5,462.376 £35,180.71
+Period summary
+Total contributions £0.00
+Total withdrawals £4,900.00
+Total charges £47.17

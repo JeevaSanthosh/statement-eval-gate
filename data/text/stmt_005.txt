@@ -1,0 +1,19 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-09319254
+Statement period: 01 Apr 2026 to 30 Jun 2026
+Summary
+Opening value £74,768.94
+Payments in £300.00
+Withdrawals £0.00
+Charges £48.85
+Closing value £78,099.27
+Your investments
+Fund Units Price Value
+Calder European Smaller Companies C Acc 3,119.219 2.4973 £7,789.62
+Larchmont Emerging Markets Equity Acc GBP 6,661.731 6.3649 £42,401.17
+Larchmont Short-Dated Bond C Acc 2,371.115 4.5392 £10,762.90
+Calder Global Equity Index Inc 2,735.493 3.9767 £10,878.33
+Pennine UK Gilt Tracker Acc 3,573.535 1.7538 £6,267.25
+Total £78,099.27

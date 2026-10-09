@@ -1,0 +1,48 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-66566135",
+  "statement_start": "2025-01-01",
+  "statement_end": "2025-03-31",
+  "opening_value": 125459.43,
+  "closing_value": 123302.53,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": 59.68,
+  "holdings": [
+    {
+      "fund_name": "Pennine UK Gilt Tracker C Acc",
+      "units": 3449.155,
+      "value": 21692.53
+    },
+    {
+      "fund_name": "Calder European Smaller Companies C Acc",
+      "units": 6398.904,
+      "value": 30317.06
+    },
+    {
+      "fund_name": "Pennine Emerging Markets Equity Inc",
+      "units": 2526.226,
+      "value": 4351.9
+    },
+    {
+      "fund_name": "Wrekin Asia Pacific ex Japan C Acc",
+      "units": 5193.461,
+      "value": 28602.93
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies Acc GBP",
+      "units": 7151.201,
+      "value": 19875.32
+    },
+    {
+      "fund_name": "Hartsop Sterling Corporate Bond Acc GBP",
+      "units": 1293.369,
+      "value": 4838.7
+    },
+    {
+      "fund_name": "Wrekin Short-Dated Bond Acc",
+      "units": 7901.448,
+      "value": 13624.09
+    }
+  ]
+}

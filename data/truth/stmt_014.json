@@ -1,0 +1,58 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 7980 1696",
+  "statement_start": "2026-01-01",
+  "statement_end": "2026-03-31",
+  "opening_value": 153521.93,
+  "closing_value": 162843.2,
+  "contributions": 2250.0,
+  "withdrawals": 2050.0,
+  "fees": 46.16,
+  "holdings": [
+    {
+      "fund_name": "Hartsop Sterling Corporate Bond Acc GBP",
+      "units": 4159.068,
+      "value": 5406.35
+    },
+    {
+      "fund_name": "Pennine Sterling Corporate Bond Inc",
+      "units": 7266.912,
+      "value": 37797.74
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Acc GBP",
+      "units": 2126.483,
+      "value": 8726.37
+    },
+    {
+      "fund_name": "Hartsop Multi-Asset Balanced C Acc",
+      "units": 8076.485,
+      "value": 47207.34
+    },
+    {
+      "fund_name": "Orwell Sterling Corporate Bond Acc",
+      "units": 4715.852,
+      "value": 16583.49
+    },
+    {
+      "fund_name": "Orwell US Equity Tracker C Acc",
+      "units": 5320.385,
+      "value": 9992.55
+    },
+    {
+      "fund_name": "Wrekin Global Property Securities Acc GBP",
+      "units": 1763.134,
+      "value": 3226.45
+    },
+    {
+      "fund_name": "Meridian UK Equity Income Acc",
+      "units": 6321.535,
+      "value": 18130.84
+    },
+    {
+      "fund_name": "Pennine UK Equity Income C Acc",
+      "units": 5097.3,
+      "value": 15772.07
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW36512414",
+  "statement_start": "2026-04-01",
+  "statement_end": "2026-06-30",
+  "opening_value": 103017.9,
+  "closing_value": 102031.31,
+  "contributions": 2250.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Pennine Short-Dated Bond C Acc",
+      "units": 3292.264,
+      "value": 5788.27
+    },
+    {
+      "fund_name": "Larchmont Sterling Corporate Bond C Acc",
+      "units": 683.492,
+      "value": 588.92
+    },
+    {
+      "fund_name": "Larchmont US Equity Tracker Acc GBP",
+      "units": 8929.467,
+      "value": 45339.73
+    },
+    {
+      "fund_name": "Saltmarsh UK Gilt Tracker Inc",
+      "units": 792.387,
+      "value": 3872.95
+    },
+    {
+      "fund_name": "Pennine US Equity Tracker Acc GBP",
+      "units": 8822.742,
+      "value": 35404.11
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Inc",
+      "units": 1014.87,
+      "value": 3639.93
+    },
+    {
+      "fund_name": "Wrekin Global Equity Index Inc",
+      "units": 3930.794,
+      "value": 7397.4
+    }
+  ]
+}

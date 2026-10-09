@@ -1,0 +1,20 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-20963547
+Statement period: 01 Apr 2025 to 30 Jun 2025
+Summary
+Opening value £109,160.21
+Payments in £0.00
+Withdrawals £0.00
+Charges £100.47
+Closing value £107,512.83
+Your investments
+Fund Units Price Value
+Meridian Short-Dated Bond Acc 6,318.760 4.1083 £25,959.62
+Larchmont Japan Equity Acc GBP 1,131.311 5.3684 £6,073.36
+Pennine Global Equity Index Acc GBP 4,585.398 1.6160 £7,410.19
+Larchmont UK Gilt Tracker Acc 7,391.244 5.4785 £40,492.58
+Saltmarsh Sterling Corporate Bond Acc 1,982.230 6.1556 £12,201.74
+Calder Short-Dated Bond Acc GBP 7,300.922 2.1059 £15,375.34
+Total £107,512.83

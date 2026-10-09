@@ -1,0 +1,38 @@
+{
+  "provider": "Brackenford Investments",
+  "account_number": "BRK-74951879",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 37979.4,
+  "closing_value": 40903.73,
+  "contributions": 750.0,
+  "withdrawals": 0.0,
+  "fees": 11.5,
+  "holdings": [
+    {
+      "fund_name": "Pennine Emerging Markets Equity Acc GBP",
+      "units": 560.518,
+      "value": 1798.8
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Inc",
+      "units": 2161.327,
+      "value": 11052.91
+    },
+    {
+      "fund_name": "Calder Short-Dated Bond Acc GBP",
+      "units": 2207.535,
+      "value": 12134.05
+    },
+    {
+      "fund_name": "Meridian UK Equity Income Acc GBP",
+      "units": 2203.621,
+      "value": 2925.8
+    },
+    {
+      "fund_name": "Hartsop Short-Dated Bond Acc GBP",
+      "units": 4317.935,
+      "value": 12992.17
+    }
+  ]
+}

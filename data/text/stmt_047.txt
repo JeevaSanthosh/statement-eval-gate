@@ -1,0 +1,25 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/635766/88
+This statement covers 1 April 2025 – 30 June 2025.
+On 1 April 2025 your pension was worth £78,167.06. On 30 June 2025 it was worth £79,123.55.
+Transactions
+Date Description Amount
+23 April 2025 Monthly contribution £400.00
+23 April 2025 Annual management charge -£15.00
+18 May 2025 Monthly contribution £400.00
+18 May 2025 Annual management charge -£15.00
+24 June 2025 Monthly contribution £400.00
+24 June 2025 Annual management charge -£14.99
+Where your pension is invested
+Fund Units Value
+Saltmarsh European Smaller Companies C Acc 3,616.858 £6,480.61
+Orwell Short-Dated Bond C Acc 5,869.966 £14,745.65
+Hartsop Emerging Markets Equity Acc GBP 7,217.577 £13,362.10
+Wrekin Multi-Asset Balanced Acc GBP 5,792.381 £22,089.16
+Orwell Global Equity Index Acc 3,799.746 £22,446.03
+Period summary
+Total contributions £1,200.00
+Total withdrawals £0.00
+Total charges £44.99

@@ -1,0 +1,27 @@
+[Page 1]
+Brackenford Investments
+
+Quarterly Investment Statement
+
+Account number: BRK-09038871
+Statement period: 01 Jul 2024 to 30 Sep 2024
+
+Summary
+Opening value £120,328.99
+Payments in £0.00
+Withdrawals £0.00
+Charges £49.77
+Closing value £127,309.08
+Your investments
+Fund Units Price Value
+Pennine Short-Dated Bond Acc GBP 5,883.604 5.7395 £33,769.10
+Hartsop Emerging Markets Equity Acc GBP 1,862.058 2.7695 £5,156.94
+Pennine Sterling Corporate Bond Inc 8.857.580 1.1719 £10,380.51
+Caider Emerging Markets Equity Inc 2.783.390 3.5160 £9,786.34
+Calder Global Property Securities C Acc 6.713.826 4.3942 £29,502.17
+Pennine Japan Equity C Acc 8.371.204 4.6169 £38,649.43
+Calder US Equity Tracker inc §3.532 1.2066 £64.59
+
+“Calder US Equity Tracker ng ee
+
+Total £127,309.08

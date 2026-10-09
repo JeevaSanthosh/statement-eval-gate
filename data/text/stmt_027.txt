@@ -1,0 +1,20 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/673302/61
+This statement covers 1 April 2026 – 30 June 2026.
+On 1 April 2026 your pension was worth £51,566.38. On 30 June 2026 it was worth £51,598.14.
+Transactions
+Date Description Amount
+23 April 2026 Annual management charge -£11.77
+5 May 2026 Annual management charge -£11.77
+14 June 2026 Annual management charge -£11.78
+Where your pension is invested
+Fund Units Value
+Saltmarsh Sterling Corporate Bond Inc 5,050.209 £6,794.10
+Meridian US Equity Tracker Acc GBP 4,982.053 £26,362.72
+Hartsop US Equity Tracker Acc GBP 5,376.538 £18,441.32
+Period summary
+Total contributions £0.00
+Total withdrawals £0.00
+Total charges £35.32

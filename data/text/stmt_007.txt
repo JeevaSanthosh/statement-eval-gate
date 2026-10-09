@@ -1,0 +1,23 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/112532/87
+This statement covers 1 April 2026 – 30 June 2026.
+On 1 April 2026 your pension was worth £72,509.11. On 30 June 2026 it was worth £72,863.93.
+Transactions
+Date Description Amount
+24 April 2026 Monthly contribution £200.00
+24 April 2026 Annual management charge -£16.40
+9 May 2026 Monthly contribution £200.00
+9 May 2026 Annual management charge -£16.40
+7 June 2026 Monthly contribution £200.00
+7 June 2026 Annual management charge -£16.40
+Where your pension is invested
+Fund Units Value
+Larchmont UK Gilt Tracker Acc GBP 5,597.957 £25,988.06
+Pennine UK Gilt Tracker Acc 6,741.874 £37,942.10
+Pennine European Smaller Companies C Acc 5,993.250 £8,933.77
+Period summary
+Total contributions £600.00
+Total withdrawals £0.00
+Total charges £49.20

@@ -1,0 +1,18 @@
+[Page 1]
+Brackenford Investments
+Quarterly Investment Statement
+Account number: BRK-73294763
+Statement period: 01 Apr 2026 to 30 Jun 2026
+Summary
+Opening value £55,513.47
+Payments in £0.00
+Withdrawals £0.00
+Charges £26.28
+Closing value £56,126.69
+Your investments
+Fund Units Price Value
+Orwell Sterling Corporate Bond Acc GBP 6,275.306 1.5117 £9,486.30
+Saltmarsh European Smaller Companies C Acc 8,232.371 0.9988 £8,222.87
+Calder Short-Dated Bond Acc 5,334.204 3.2645 £17,413.33
+Hartsop Global Equity Index C Acc 6,468.587 3.2471 £21,004.19
+Total £56,126.69

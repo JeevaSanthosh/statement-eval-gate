@@ -1,0 +1,53 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 9916 7745",
+  "statement_start": "2025-07-01",
+  "statement_end": "2025-09-30",
+  "opening_value": 104745.76,
+  "closing_value": 103093.82,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": 73.73,
+  "holdings": [
+    {
+      "fund_name": "Meridian Short-Dated Bond Inc",
+      "units": 5864.898,
+      "value": 27576.86
+    },
+    {
+      "fund_name": "Larchmont Short-Dated Bond C Acc",
+      "units": 5226.432,
+      "value": 8468.83
+    },
+    {
+      "fund_name": "Calder Multi-Asset Balanced Inc",
+      "units": 2174.836,
+      "value": 5154.47
+    },
+    {
+      "fund_name": "Calder Sterling Corporate Bond C Acc",
+      "units": 334.698,
+      "value": 1467.18
+    },
+    {
+      "fund_name": "Pennine Asia Pacific ex Japan Acc",
+      "units": 7739.574,
+      "value": 48000.0
+    },
+    {
+      "fund_name": "Wrekin Multi-Asset Balanced Acc GBP",
+      "units": 604.682,
+      "value": 1144.31
+    },
+    {
+      "fund_name": "Pennine Japan Equity Acc GBP",
+      "units": 5631.065,
+      "value": 5132.3
+    },
+    {
+      "fund_name": "Meridian Japan Equity C Acc",
+      "units": 2011.629,
+      "value": 6149.87
+    }
+  ]
+}

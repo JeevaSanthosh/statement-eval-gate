@@ -1,0 +1,27 @@
+[Page 1]
+Ashcombe Pensions
+Your pension statement
+Member number: ASP/131481/97
+This statement covers 1 October 2025 – 31 December 2025.
+On 1 October 2025 your pension was worth £113,646.65. On 31 December 2025 it was worth
+£113,043.54.
+Transactions
+Date Description Amount
+24 October 2025 Monthly contribution £200.00
+24 October 2025 Annual management charge -£10.05
+7 November 2025 Monthly contribution £200.00
+7 November 2025 Annual management charge -£10.05
+19 December 2025 Monthly contribution £200.00
+19 December 2025 Annual management charge -£10.06
+Where your pension is invested
+Fund Units Value
+Calder Sterling Corporate Bond Inc 6,268.732 £15,453.29
+Meridian Emerging Markets Equity C Acc 6,207.077 £9,810.42
+Calder Global Equity Index C Acc 6,832.269 £36,685.80
+Orwell Global Property Securities Acc 5,632.377 £31,668.24
+Saltmarsh UK Gilt Tracker Acc 2,594.168 £9,346.57
+Meridian Global Equity Index Acc GBP 1,686.978 £10,079.22
+Period summary
+Total contributions £600.00
+Total withdrawals £0.00
+Total charges £30.16

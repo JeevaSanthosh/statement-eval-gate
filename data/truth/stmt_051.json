@@ -1,0 +1,43 @@
+{
+  "provider": "Ashcombe Pensions",
+  "account_number": "ASP/131481/97",
+  "statement_start": "2025-10-01",
+  "statement_end": "2025-12-31",
+  "opening_value": 113646.65,
+  "closing_value": 113043.54,
+  "contributions": 600.0,
+  "withdrawals": 0.0,
+  "fees": 30.16,
+  "holdings": [
+    {
+      "fund_name": "Calder Sterling Corporate Bond Inc",
+      "units": 6268.732,
+      "value": 15453.29
+    },
+    {
+      "fund_name": "Meridian Emerging Markets Equity C Acc",
+      "units": 6207.077,
+      "value": 9810.42
+    },
+    {
+      "fund_name": "Calder Global Equity Index C Acc",
+      "units": 6832.269,
+      "value": 36685.8
+    },
+    {
+      "fund_name": "Orwell Global Property Securities Acc",
+      "units": 5632.377,
+      "value": 31668.24
+    },
+    {
+      "fund_name": "Saltmarsh UK Gilt Tracker Acc",
+      "units": 2594.168,
+      "value": 9346.57
+    },
+    {
+      "fund_name": "Meridian Global Equity Index Acc GBP",
+      "units": 1686.978,
+      "value": 10079.22
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 7628 3312",
+  "statement_start": "2025-07-01",
+  "statement_end": "2025-09-30",
+  "opening_value": 130784.46,
+  "closing_value": 129302.21,
+  "contributions": 3000.0,
+  "withdrawals": 0.0,
+  "fees": 37.35,
+  "holdings": [
+    {
+      "fund_name": "Saltmarsh UK Equity Income C Acc",
+      "units": 6902.08,
+      "value": 13151.36
+    },
+    {
+      "fund_name": "Hartsop European Smaller Companies Inc",
+      "units": 4207.422,
+      "value": 9721.78
+    },
+    {
+      "fund_name": "Calder Emerging Markets Equity Acc",
+      "units": 8008.432,
+      "value": 11382.75
+    },
+    {
+      "fund_name": "Meridian US Equity Tracker C Acc",
+      "units": 5627.429,
+      "value": 24071.67
+    },
+    {
+      "fund_name": "Orwell Sterling Corporate Bond C Acc",
+      "units": 8072.427,
+      "value": 28776.59
+    },
+    {
+      "fund_name": "Calder Global Property Securities Inc",
+      "units": 8197.148,
+      "value": 9193.74
+    },
+    {
+      "fund_name": "Orwell UK Equity Income C Acc",
+      "units": 5369.427,
+      "value": 32511.69
+    },
+    {
+      "fund_name": "Saltmarsh Global Property Securities Inc",
+      "units": 527.051,
+      "value": 492.63
+    }
+  ]
+}

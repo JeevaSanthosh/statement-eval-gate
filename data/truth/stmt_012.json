@@ -1,0 +1,28 @@
+{
+  "provider": "Kestrel Lane Wealth",
+  "account_number": "KLW69963932",
+  "statement_start": "2024-04-01",
+  "statement_end": "2024-06-30",
+  "opening_value": 55836.09,
+  "closing_value": 55221.81,
+  "contributions": 0.0,
+  "withdrawals": 0.0,
+  "fees": null,
+  "holdings": [
+    {
+      "fund_name": "Meridian Japan Equity C Acc",
+      "units": 8156.021,
+      "value": 42974.23
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies C Acc",
+      "units": 1297.999,
+      "value": 7189.06
+    },
+    {
+      "fund_name": "Wrekin Global Equity Index Inc",
+      "units": 5713.134,
+      "value": 5058.52
+    }
+  ]
+}

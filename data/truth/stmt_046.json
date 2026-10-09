@@ -1,0 +1,48 @@
+{
+  "provider": "Tidewell Platform",
+  "account_number": "TDW 9837 8710",
+  "statement_start": "2024-10-01",
+  "statement_end": "2024-12-31",
+  "opening_value": 75454.29,
+  "closing_value": 74602.67,
+  "contributions": 1200.0,
+  "withdrawals": 1250.0,
+  "fees": 47.9,
+  "holdings": [
+    {
+      "fund_name": "Meridian US Equity Tracker Acc GBP",
+      "units": 7124.34,
+      "value": 18114.28
+    },
+    {
+      "fund_name": "Larchmont Emerging Markets Equity Acc GBP",
+      "units": 4930.745,
+      "value": 26656.99
+    },
+    {
+      "fund_name": "Meridian Multi-Asset Balanced Inc",
+      "units": 1075.55,
+      "value": 5342.75
+    },
+    {
+      "fund_name": "Hartsop UK Equity Income Inc",
+      "units": 650.51,
+      "value": 3992.0
+    },
+    {
+      "fund_name": "Meridian European Smaller Companies Acc",
+      "units": 265.403,
+      "value": 1307.66
+    },
+    {
+      "fund_name": "Saltmarsh Global Equity Index Inc",
+      "units": 3343.582,
+      "value": 6099.36
+    },
+    {
+      "fund_name": "Meridian UK Gilt Tracker Acc GBP",
+      "units": 3578.794,
+      "value": 13089.63
+    }
+  ]
+}
