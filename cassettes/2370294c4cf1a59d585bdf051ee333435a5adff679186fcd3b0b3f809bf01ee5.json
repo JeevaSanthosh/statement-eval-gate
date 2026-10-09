@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_027",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/673302/61\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 51566.38,\n  \"closing_value\": 51598.14,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 35.32,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh Sterling Corporate Bond Inc\",\n      \"units\": 5050.209,\n      \"value\": 6794.1\n    },\n    {\n      \"fund_name\": \"Meridian US Equity Tracker Acc GBP\",\n      \"units\": 4982.053,\n      \"value\": 26362.72\n    },\n    {\n      \"fund_name\": \"Hartsop US Equity Tracker Acc GBP\",\n      \"units\": 5376.538,\n      \"value\": 18441.32\n    }\n  ]\n}",
+  "latency_ms": 85019,
+  "prompt_tokens": 1402,
+  "completion_tokens": 295
+ }
+}

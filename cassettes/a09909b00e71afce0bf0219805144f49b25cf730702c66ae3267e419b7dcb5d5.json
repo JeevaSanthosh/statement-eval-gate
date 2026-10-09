@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_055",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/196592/65\",\n  \"statement_start\": \"2024-01-01\",\n  \"statement_end\": \"2024-03-31\",\n  \"opening_value\": 83877.51,\n  \"closing_value\": 82938.11,\n  \"contributions\": 450.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 21.4,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Calder Japan Equity Acc GBP\",\n      \"units\": 3715.901,\n      \"value\": 14776.79\n    },\n    {\n      \"fund_name\": \"Saltmarsh Global Equity Index C Acc\",\n      \"units\": 846.347,\n      \"value\": 5114.53\n    },\n    {\n      \"fund_name\": \"Calder European Smaller Companies Acc GBP\",\n      \"units\": 962.048,\n      \"value\": 1530.56\n    },\n    {\n      \"fund_name\": \"Calder Short-Dated Bond Acc GBP\",\n      \"units\": 6065.722,\n      \"value\": 27008.42\n    },\n    {\n      \"fund_name\": \"Larchmont Asia Pacific ex Japan Inc\",\n      \"units\": 7268.079,\n      \"value\": 34507.81\n    }\n  ]\n}",
+  "latency_ms": 109525,
+  "prompt_tokens": 1695,
+  "completion_tokens": 396
+ }
+}

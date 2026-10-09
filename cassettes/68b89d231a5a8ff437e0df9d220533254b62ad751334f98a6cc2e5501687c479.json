@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_042",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 8309 2314\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 93610.33,\n  \"closing_value\": 94892.73,\n  \"contributions\": 600.0,\n  \"withdrawals\": 2500.0,\n  \"fees\": 83.98,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine US Equity Tracker Acc\",\n      \"units\": 6545.949,\n      \"value\": 37501.17\n    },\n    {\n      \"fund_name\": \"Larchmont European Smaller Companies Acc GBP\",\n      \"units\": 5745.118,\n      \"value\": 9684.24\n    },\n    {\n      \"fund_name\": \"Meridian Global Equity Index Acc GBP\",\n      \"units\": 7853.612,\n      \"value\": 38372.81\n    },\n    {\n      \"fund_name\": \"Larchmont Emerging Markets Equity Inc\",\n      \"units\": 1072.236,\n      \"value\": 3183.85\n    },\n    {\n      \"fund_name\": \"Meridian Asia Pacific ex Japan Acc GBP\",\n      \"units\": 6056.633,\n      \"value\": 4970.37\n    },\n    {\n      \"fund_name\": \"Calder Short-Dated Bond C Acc\",\n      \"units\": 419.181,\n      \"value\": 1180.29\n    }\n  ]\n}",
+  "latency_ms": 118853,
+  "prompt_tokens": 1478,
+  "completion_tokens": 452
+ }
+}

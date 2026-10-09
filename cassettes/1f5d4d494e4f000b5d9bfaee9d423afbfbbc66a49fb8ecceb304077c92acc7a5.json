@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_038",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 9035 6261\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 197695.38,\n  \"closing_value\": 201643.22,\n  \"contributions\": 0.0,\n  \"withdrawals\": 1400.0,\n  \"fees\": 145.16,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Short-Dated Bond Inc\",\n      \"units\": 3046.727,\n      \"value\": 14679.99\n    },\n    {\n      \"fund_name\": \"Saltmarsh Short-Dated Bond Inc\",\n      \"units\": 7568.854,\n      \"value\": 33903.43\n    },\n    {\n      \"fund_name\": \"Hartsop UK Gilt Tracker Acc GBP\",\n      \"units\": 4209.009,\n      \"value\": 23390.6\n    },\n    {\n      \"fund_name\": \"Pennine UK Equity Income Acc GBP\",\n      \"units\": 4949.29,\n      \"value\": 5134.19\n    },\n    {\n      \"fund_name\": \"Meridian US Equity Tracker C Acc\",\n      \"units\": 7068.556,\n      \"value\": 24865.54\n    },\n    {\n      \"fund_name\": \"Pennine Global Property Securities Acc\",\n      \"units\": 4599.789,\n      \"value\": 22354.34\n    },\n    {\n      \"fund_name\": \"Larchmont Global Equity Index Acc\",\n      \"units\": 6118.339,\n      \"value\": 38097.66\n    },\n    {\n      \"fund_name\": \"Hartsop Short-Dated Bond Inc\",\n      \"units\": 5592.991,\n      \"value\": 9462.64\n    },\n    {\n      \"fund_name\": \"Pennine Multi-Asset Balanced C Acc\",\n      \"units\": 5885.468,\n      \"value\": 29754.83\n    }\n  ]\n}",
+  "latency_ms": 154071,
+  "prompt_tokens": 1754,
+  "completion_tokens": 604
+ }
+}

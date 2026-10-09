@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_036",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW19237739\",\n  \"statement_start\": \"2025-01-01\",\n  \"statement_end\": \"2025-03-31\",\n  \"opening_value\": 30141.04,\n  \"closing_value\": 29642.07,\n  \"contributions\": 450.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Calder US Equity Tracker Acc GBP\",\n      \"units\": 1.555253,\n      \"value\": 2783.89\n    },\n    {\n      \"fund_name\": \"Wrekin UK Gilt Tracker Acc\",\n      \"units\": 6894.061,\n      \"value\": 22246.94\n    },\n    {\n      \"fund_name\": \"Pennine Emerging Markets Equity Acc GBP\",\n      \"units\": 3068.77,\n      \"value\": 4611.24\n    }\n  ]\n}",
+  "latency_ms": 82652,
+  "prompt_tokens": 1336,
+  "completion_tokens": 292
+ }
+}

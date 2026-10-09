@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_006",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 7628 3312\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 130784.46,\n  \"closing_value\": 129302.21,\n  \"contributions\": 3000.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 37.35,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh UK Equity Income C Acc\",\n      \"units\": 6902.08,\n      \"value\": 13151.36\n    },\n    {\n      \"fund_name\": \"Hartsop European Smaller Companies Inc\",\n      \"units\": 4207.422,\n      \"value\": 9721.78\n    },\n    {\n      \"fund_name\": \"Calder Emerging Markets Equity Acc\",\n      \"units\": 8008.432,\n      \"value\": 11382.75\n    },\n    {\n      \"fund_name\": \"Meridian US Equity Tracker C Acc\",\n      \"units\": 5627.429,\n      \"value\": 24071.67\n    },\n    {\n      \"fund_name\": \"Orwell Sterling Corporate Bond C Acc\",\n      \"units\": 8072.427,\n      \"value\": 28776.59\n    },\n    {\n      \"fund_name\": \"Calder Global Property Securities Inc\",\n      \"units\": 8197.148,\n      \"value\": 9193.74\n    },\n    {\n      \"fund_name\": \"Orwell UK Equity Income C Acc\",\n      \"units\": 5369.427,\n      \"value\": 32511.69\n    },\n    {\n      \"fund_name\": \"Saltmarsh Global Property Securities Inc\",\n      \"units\": 527.051,\n      \"value\": 492.63\n    }\n  ]\n}",
+  "latency_ms": 160588,
+  "prompt_tokens": 1527,
+  "completion_tokens": 546
+ }
+}

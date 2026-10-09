@@ -1,0 +1,3470 @@
+{
+ "run": {
+  "provider": "ollama",
+  "model": "qwen3.5:4b",
+  "prompt": "prompts/extract_v1.md",
+  "prompt_sha256": "995bee6f699ceff9cc549045474e44650fe457b48747a3b3a6f5296874393019",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 8192
+  },
+  "think": false,
+  "mode": "replay",
+  "documents": 60,
+  "recorded_now": 0,
+  "seg_version": "0.1.0",
+  "finished_at": "2026-10-09T22:08:12+00:00"
+ },
+ "macro_f1": 0.9716,
+ "fields": {
+  "provider": {
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "account_number": {
+   "tp": 59,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.9833,
+   "recall": 0.9833,
+   "f1": 0.9833
+  },
+  "statement_start": {
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "statement_end": {
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "opening_value": {
+   "tp": 58,
+   "fp": 2,
+   "fn": 2,
+   "precision": 0.9667,
+   "recall": 0.9667,
+   "f1": 0.9667
+  },
+  "closing_value": {
+   "tp": 59,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.9833,
+   "recall": 0.9833,
+   "f1": 0.9833
+  },
+  "contributions": {
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "withdrawals": {
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "fees": {
+   "tp": 45,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "holdings": {
+   "tp": 267,
+   "fp": 74,
+   "fn": 74,
+   "precision": 0.783,
+   "recall": 0.783,
+   "f1": 0.783
+  }
+ },
+ "slices": {
+  "Ashcombe Pensions": {
+   "documents": 15,
+   "macro_f1": 0.9849,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 1.0,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 1.0,
+    "closing_value": 1.0,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.8493
+   }
+  },
+  "Brackenford Investments": {
+   "documents": 15,
+   "macro_f1": 0.9516,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 1.0,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 0.9333,
+    "closing_value": 1.0,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.5823
+   }
+  },
+  "Kestrel Lane Wealth": {
+   "documents": 15,
+   "macro_f1": 0.9664,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 1.0,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 0.9333,
+    "closing_value": 0.9333,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.7971
+   }
+  },
+  "Tidewell Platform": {
+   "documents": 15,
+   "macro_f1": 0.98,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 0.9333,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 1.0,
+    "closing_value": 1.0,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.8667
+   }
+  },
+  "native PDF": {
+   "documents": 48,
+   "macro_f1": 0.9941,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 1.0,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 1.0,
+    "closing_value": 1.0,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.9407
+   }
+  },
+  "scanned": {
+   "documents": 12,
+   "macro_f1": 0.885,
+   "f1": {
+    "provider": 1.0,
+    "account_number": 0.9167,
+    "statement_start": 1.0,
+    "statement_end": 1.0,
+    "opening_value": 0.8333,
+    "closing_value": 0.9167,
+    "contributions": 1.0,
+    "withdrawals": 1.0,
+    "fees": 1.0,
+    "holdings": 0.1831
+   }
+  }
+ },
+ "ops": {
+  "documents": 60,
+  "invalid_responses": 0,
+  "latency_ms_p50": 116950,
+  "latency_ms_p95": 153068,
+  "mean_completion_tokens": 429.8
+ },
+ "documents": {
+  "stmt_001": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_002": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    9,
+    0,
+    0
+   ]
+  },
+  "stmt_003": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_004": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    5,
+    5
+   ]
+  },
+  "stmt_005": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_006": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    8,
+    0,
+    0
+   ]
+  },
+  "stmt_007": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  },
+  "stmt_008": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    1,
+    1
+   ]
+  },
+  "stmt_009": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_010": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    8,
+    0,
+    0
+   ]
+  },
+  "stmt_011": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_012": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  },
+  "stmt_013": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    1,
+    3,
+    3
+   ]
+  },
+  "stmt_014": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    3,
+    3
+   ]
+  },
+  "stmt_015": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_016": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_017": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    2,
+    5,
+    5
+   ]
+  },
+  "stmt_018": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    8,
+    0,
+    0
+   ]
+  },
+  "stmt_019": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    3,
+    3
+   ]
+  },
+  "stmt_020": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_021": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    5,
+    5
+   ]
+  },
+  "stmt_022": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_023": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_024": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    0,
+    0
+   ]
+  },
+  "stmt_025": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  },
+  "stmt_026": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    1,
+    5,
+    5
+   ]
+  },
+  "stmt_027": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  },
+  "stmt_028": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    1,
+    1
+   ]
+  },
+  "stmt_029": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_030": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    0,
+    1,
+    1
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    1,
+    8,
+    8
+   ]
+  },
+  "stmt_031": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    7,
+    7
+   ]
+  },
+  "stmt_032": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    4,
+    4
+   ]
+  },
+  "stmt_033": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    0,
+    1,
+    1
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    2,
+    5,
+    5
+   ]
+  },
+  "stmt_034": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    8,
+    0,
+    0
+   ]
+  },
+  "stmt_035": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    0,
+    0
+   ]
+  },
+  "stmt_036": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    2,
+    1,
+    1
+   ]
+  },
+  "stmt_037": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    1,
+    1
+   ]
+  },
+  "stmt_038": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    9,
+    0,
+    0
+   ]
+  },
+  "stmt_039": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_040": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_041": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    0,
+    5,
+    5
+   ]
+  },
+  "stmt_042": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    0,
+    0
+   ]
+  },
+  "stmt_043": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    1,
+    1
+   ]
+  },
+  "stmt_044": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    0,
+    0
+   ]
+  },
+  "stmt_045": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    1,
+    1
+   ]
+  },
+  "stmt_046": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_047": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_048": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_049": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    2,
+    4,
+    4
+   ]
+  },
+  "stmt_050": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    9,
+    0,
+    0
+   ]
+  },
+  "stmt_051": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    6,
+    0,
+    0
+   ]
+  },
+  "stmt_052": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    0,
+    1,
+    1
+   ],
+   "closing_value": [
+    0,
+    1,
+    1
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    4,
+    2,
+    2
+   ]
+  },
+  "stmt_053": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    7,
+    0,
+    0
+   ]
+  },
+  "stmt_054": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    9,
+    0,
+    0
+   ]
+  },
+  "stmt_055": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_056": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    5,
+    0,
+    0
+   ]
+  },
+  "stmt_057": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    4,
+    4
+   ]
+  },
+  "stmt_058": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    8,
+    0,
+    0
+   ]
+  },
+  "stmt_059": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    1,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  },
+  "stmt_060": {
+   "provider": [
+    1,
+    0,
+    0
+   ],
+   "account_number": [
+    1,
+    0,
+    0
+   ],
+   "statement_start": [
+    1,
+    0,
+    0
+   ],
+   "statement_end": [
+    1,
+    0,
+    0
+   ],
+   "opening_value": [
+    1,
+    0,
+    0
+   ],
+   "closing_value": [
+    1,
+    0,
+    0
+   ],
+   "contributions": [
+    1,
+    0,
+    0
+   ],
+   "withdrawals": [
+    1,
+    0,
+    0
+   ],
+   "fees": [
+    0,
+    0,
+    0
+   ],
+   "holdings": [
+    3,
+    0,
+    0
+   ]
+  }
+ },
+ "failures": {
+  "provider": [],
+  "account_number": [
+   {
+    "id": "stmt_030",
+    "truth": "TDW 2447 3957",
+    "predicted": "TOW 2447 3957"
+   }
+  ],
+  "statement_start": [],
+  "statement_end": [],
+  "opening_value": [
+   {
+    "id": "stmt_033",
+    "truth": 97934.59,
+    "predicted": 979345.9
+   },
+   {
+    "id": "stmt_052",
+    "truth": 88732.33,
+    "predicted": 86962.07
+   }
+  ],
+  "closing_value": [
+   {
+    "id": "stmt_052",
+    "truth": 86962.07,
+    "predicted": 88732.33
+   }
+  ],
+  "contributions": [],
+  "withdrawals": [],
+  "fees": [],
+  "holdings": [
+   {
+    "id": "stmt_004",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_008",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_013",
+    "missed": 3,
+    "extra": 3
+   },
+   {
+    "id": "stmt_014",
+    "missed": 3,
+    "extra": 3
+   },
+   {
+    "id": "stmt_017",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_019",
+    "missed": 3,
+    "extra": 3
+   },
+   {
+    "id": "stmt_021",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_026",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_028",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_030",
+    "missed": 8,
+    "extra": 8
+   },
+   {
+    "id": "stmt_031",
+    "missed": 7,
+    "extra": 7
+   },
+   {
+    "id": "stmt_032",
+    "missed": 4,
+    "extra": 4
+   },
+   {
+    "id": "stmt_033",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_036",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_037",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_041",
+    "missed": 5,
+    "extra": 5
+   },
+   {
+    "id": "stmt_043",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_045",
+    "missed": 1,
+    "extra": 1
+   },
+   {
+    "id": "stmt_049",
+    "missed": 4,
+    "extra": 4
+   },
+   {
+    "id": "stmt_052",
+    "missed": 2,
+    "extra": 2
+   },
+   {
+    "id": "stmt_057",
+    "missed": 4,
+    "extra": 4
+   }
+  ]
+ }
+}

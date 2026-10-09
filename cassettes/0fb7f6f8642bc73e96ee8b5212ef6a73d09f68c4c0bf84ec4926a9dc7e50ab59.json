@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_041",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-74951879\",\n  \"statement_start\": \"2025-10-01\",\n  \"statement_end\": \"2025-12-31\",\n  \"opening_value\": 37979.4,\n  \"closing_value\": 40903.73,\n  \"contributions\": 750.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 11.5,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine Emerging Markets Equity Acc GBP\",\n      \"units\": 560518,\n      \"value\": 1798.8\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Inc\",\n      \"units\": 2161327,\n      \"value\": 11052.91\n    },\n    {\n      \"fund_name\": \"Calder Short-Dated Bond Acc GBP\",\n      \"units\": 2207535,\n      \"value\": 12134.05\n    },\n    {\n      \"fund_name\": \"Meridian UK Equity Income Acc GBP\",\n      \"units\": 2203621,\n      \"value\": 2925.8\n    },\n    {\n      \"fund_name\": \"Hartsop Short-Dated Bond Acc GBP\",\n      \"units\": 4317935,\n      \"value\": 12992.17\n    }\n  ]\n}",
+  "latency_ms": 105664,
+  "prompt_tokens": 1608,
+  "completion_tokens": 390
+ }
+}

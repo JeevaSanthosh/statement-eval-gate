@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_047",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/635766/88\",\n  \"statement_start\": \"2025-04-01\",\n  \"statement_end\": \"2025-06-30\",\n  \"opening_value\": 78167.06,\n  \"closing_value\": 79123.55,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 44.99,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh European Smaller Companies C Acc\",\n      \"units\": 3616.858,\n      \"value\": 6480.61\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond C Acc\",\n      \"units\": 5869.966,\n      \"value\": 14745.65\n    },\n    {\n      \"fund_name\": \"Hartsop Emerging Markets Equity Acc GBP\",\n      \"units\": 7217.577,\n      \"value\": 13362.1\n    },\n    {\n      \"fund_name\": \"Wrekin Multi-Asset Balanced Acc GBP\",\n      \"units\": 5792.381,\n      \"value\": 22089.16\n    },\n    {\n      \"fund_name\": \"Orwell Global Equity Index Acc\",\n      \"units\": 3799.746,\n      \"value\": 22446.03\n    }\n  ]\n}",
+  "latency_ms": 110595,
+  "prompt_tokens": 1521,
+  "completion_tokens": 402
+ }
+}

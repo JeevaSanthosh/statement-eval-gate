@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_007",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/112532/87\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 72509.11,\n  \"closing_value\": 72863.93,\n  \"contributions\": 600.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 49.2,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont UK Gilt Tracker Acc GBP\",\n      \"units\": 5597.957,\n      \"value\": 25988.06\n    },\n    {\n      \"fund_name\": \"Pennine UK Gilt Tracker Acc\",\n      \"units\": 6741.874,\n      \"value\": 37942.1\n    },\n    {\n      \"fund_name\": \"Pennine European Smaller Companies C Acc\",\n      \"units\": 5993.25,\n      \"value\": 8933.77\n    }\n  ]\n}",
+  "latency_ms": 99617,
+  "prompt_tokens": 1458,
+  "completion_tokens": 298
+ }
+}

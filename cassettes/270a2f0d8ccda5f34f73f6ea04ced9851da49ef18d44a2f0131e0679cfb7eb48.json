@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_001",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-01815908\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 21021.22,\n  \"closing_value\": 24417.42,\n  \"contributions\": 2250.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 16.48,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Global Property Securities Inc\",\n      \"units\": 783.543,\n      \"value\": 1302.56\n    },\n    {\n      \"fund_name\": \"Pennine Global Equity Index C Acc\",\n      \"units\": 5940.309,\n      \"value\": 5160.7\n    },\n    {\n      \"fund_name\": \"Orwell UK Gilt Tracker Inc\",\n      \"units\": 7486.598,\n      \"value\": 13770.51\n    },\n    {\n      \"fund_name\": \"Larchmont Japan Equity Inc\",\n      \"units\": 2566.099,\n      \"value\": 4183.65\n    }\n  ]\n}",
+  "latency_ms": 124727,
+  "prompt_tokens": 1382,
+  "completion_tokens": 344
+ }
+}

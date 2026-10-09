@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_023",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/583586/50\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 104830.93,\n  \"closing_value\": 108570.7,\n  \"contributions\": 600.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 71.89,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh European Smaller Companies Inc\",\n      \"units\": 5312.862,\n      \"value\": 21057.37\n    },\n    {\n      \"fund_name\": \"Pennine Multi-Asset Balanced Acc\",\n      \"units\": 5929.94,\n      \"value\": 25077.38\n    },\n    {\n      \"fund_name\": \"Saltmarsh US Equity Tracker C Acc\",\n      \"units\": 3004.321,\n      \"value\": 15094.23\n    },\n    {\n      \"fund_name\": \"Calder US Equity Tracker C Acc\",\n      \"units\": 2350.165,\n      \"value\": 11410.38\n    },\n    {\n      \"fund_name\": \"Hartsop Global Property Securities Acc GBP\",\n      \"units\": 6879.244,\n      \"value\": 35931.34\n    }\n  ]\n}",
+  "latency_ms": 110666,
+  "prompt_tokens": 1705,
+  "completion_tokens": 400
+ }
+}

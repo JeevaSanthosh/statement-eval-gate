@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_029",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-66566135\",\n  \"statement_start\": \"2025-01-01\",\n  \"statement_end\": \"2025-03-31\",\n  \"opening_value\": 125459.43,\n  \"closing_value\": 123302.53,\n  \"contributions\": 2250.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 59.68,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine UK Gilt Tracker C Acc\",\n      \"units\": 3449.155,\n      \"value\": 21692.53\n    },\n    {\n      \"fund_name\": \"Calder European Smaller Companies C Acc\",\n      \"units\": 6398.904,\n      \"value\": 30317.06\n    },\n    {\n      \"fund_name\": \"Pennine Emerging Markets Equity Inc\",\n      \"units\": 2526.226,\n      \"value\": 4351.9\n    },\n    {\n      \"fund_name\": \"Wrekin Asia Pacific ex Japan C Acc\",\n      \"units\": 5193.461,\n      \"value\": 28602.93\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies Acc GBP\",\n      \"units\": 7151.201,\n      \"value\": 19875.32\n    },\n    {\n      \"fund_name\": \"Hartsop Sterling Corporate Bond Acc GBP\",\n      \"units\": 1293.369,\n      \"value\": 4838.7\n    },\n    {\n      \"fund_name\": \"Wrekin Short-Dated Bond Acc\",\n      \"units\": 7901.448,\n      \"value\": 13624.09\n    }\n  ]\n}",
+  "latency_ms": 130010,
+  "prompt_tokens": 1500,
+  "completion_tokens": 504
+ }
+}

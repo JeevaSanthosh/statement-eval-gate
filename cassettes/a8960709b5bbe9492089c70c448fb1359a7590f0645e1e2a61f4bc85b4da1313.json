@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_022",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 7682 3971\",\n  \"statement_start\": \"2024-01-01\",\n  \"statement_end\": \"2024-03-31\",\n  \"opening_value\": 118622.64,\n  \"closing_value\": 123255.13,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 56.84,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Wrekin UK Gilt Tracker Inc\",\n      \"units\": 3484.503,\n      \"value\": 4048.48\n    },\n    {\n      \"fund_name\": \"Meridian UK Gilt Tracker Acc GBP\",\n      \"units\": 8922.581,\n      \"value\": 25286.17\n    },\n    {\n      \"fund_name\": \"Wrekin US Equity Tracker Inc\",\n      \"units\": 5178.8,\n      \"value\": 21394.39\n    },\n    {\n      \"fund_name\": \"Larchmont Multi-Asset Balanced Inc\",\n      \"units\": 1286.289,\n      \"value\": 6151.13\n    },\n    {\n      \"fund_name\": \"Hartsop Short-Dated Bond Acc\",\n      \"units\": 8238.892,\n      \"value\": 48980.59\n    },\n    {\n      \"fund_name\": \"Hartsop UK Equity Income C Acc\",\n      \"units\": 893.458,\n      \"value\": 1729.46\n    },\n    {\n      \"fund_name\": \"Orwell European Smaller Companies Acc\",\n      \"units\": 3859.218,\n      \"value\": 15664.91\n    }\n  ]\n}",
+  "latency_ms": 130681,
+  "prompt_tokens": 1506,
+  "completion_tokens": 500
+ }
+}

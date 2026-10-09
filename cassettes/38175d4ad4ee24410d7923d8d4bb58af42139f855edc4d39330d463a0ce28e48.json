@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_030",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TOW 2447 3957\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 174444.86,\n  \"closing_value\": 180725.56,\n  \"contributions\": 750.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 130.58,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine Short-Dated Bond Acc\",\n      \"units\": 4859251,\n      \"value\": 16838.4\n    },\n    {\n      \"fund_name\": \"Orwell Asia Pacific ex Japan Acc\",\n      \"units\": 4374184,\n      \"value\": 10833.33\n    },\n    {\n      \"fund_name\": \"Calder Emerging Markets Equity C Acc\",\n      \"units\": 8428997,\n      \"value\": 53093.37\n    },\n    {\n      \"fund_name\": \"Meridian Japan Equity Acc GBP\",\n      \"units\": 4795006,\n      \"value\": 10130.19\n    },\n    {\n      \"fund_name\": \"Wrekin Global Property Securities Acc GBP\",\n      \"units\": 5027.149,\n      \"value\": 27532.22\n    },\n    {\n      \"fund_name\": \"Calder Asia Pacific ex Japan Acc\",\n      \"units\": 2564109,\n      \"value\": 16285.3\n    },\n    {\n      \"fund_name\": \"Wrekin Emerging Markets Equity Inc\",\n      \"units\": 5214717,\n      \"value\": 25367.8\n    },\n    {\n      \"fund_name\": \"Meridian Emerging Markets Equity Acc GBP\",\n      \"units\": 2037963,\n      \"value\": 3640.45\n    },\n    {\n      \"fund_name\": \"Meridian UK Gilt Tracker C Ace\",\n      \"units\": 7304.553,\n      \"value\": 17004.5\n    }\n  ]\n}",
+  "latency_ms": 151389,
+  "prompt_tokens": 1573,
+  "completion_tokens": 593
+ }
+}

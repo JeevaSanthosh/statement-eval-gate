@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_060",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW72844177\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 66148.32,\n  \"closing_value\": 65007.6,\n  \"contributions\": 750.0,\n  \"withdrawals\": 900.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont UK Gilt Tracker Acc GBP\",\n      \"units\": 1302.441,\n      \"value\": 6372.76\n    },\n    {\n      \"fund_name\": \"Calder Global Equity Index Acc\",\n      \"units\": 4856.014,\n      \"value\": 12436.42\n    },\n    {\n      \"fund_name\": \"Meridian UK Equity Income Inc\",\n      \"units\": 7509.065,\n      \"value\": 46198.42\n    }\n  ]\n}",
+  "latency_ms": 83095,
+  "prompt_tokens": 1339,
+  "completion_tokens": 294
+ }
+}

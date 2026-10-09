@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_056",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW89674035\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 122279.09,\n  \"closing_value\": 117627.79,\n  \"contributions\": 600.0,\n  \"withdrawals\": 600.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell Global Property Securities C Acc\",\n      \"units\": 2311.148,\n      \"value\": 2185.47\n    },\n    {\n      \"fund_name\": \"Pennine Emerging Markets Equity Acc\",\n      \"units\": 8517.911,\n      \"value\": 19621.85\n    },\n    {\n      \"fund_name\": \"Calder US Equity Tracker Inc\",\n      \"units\": 5063.361,\n      \"value\": 14458.06\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond C Acc\",\n      \"units\": 5214.918,\n      \"value\": 31929.81\n    },\n    {\n      \"fund_name\": \"Saltmarsh Multi-Asset Balanced Inc\",\n      \"units\": 8524.138,\n      \"value\": 49432.6\n    }\n  ]\n}",
+  "latency_ms": 105059,
+  "prompt_tokens": 1396,
+  "completion_tokens": 395
+ }
+}

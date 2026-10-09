@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_037",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-73294763\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 55513.47,\n  \"closing_value\": 56126.69,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 26.28,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell Sterling Corporate Bond Acc\",\n      \"units\": 6275.306,\n      \"value\": 9486.3\n    },\n    {\n      \"fund_name\": \"Saltmarsh European Smaller Companies C Acc\",\n      \"units\": 8232.371,\n      \"value\": 8222.87\n    },\n    {\n      \"fund_name\": \"Calder Short-Dated Bond Acc\",\n      \"units\": 5334.204,\n      \"value\": 17413.33\n    },\n    {\n      \"fund_name\": \"Hartsop Global Equity Index C Acc\",\n      \"units\": 6468.587,\n      \"value\": 21004.19\n    }\n  ]\n}",
+  "latency_ms": 94351,
+  "prompt_tokens": 1384,
+  "completion_tokens": 345
+ }
+}

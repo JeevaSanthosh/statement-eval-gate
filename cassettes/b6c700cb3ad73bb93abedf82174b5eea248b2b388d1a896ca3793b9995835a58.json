@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_046",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 9837 8710\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 75454.29,\n  \"closing_value\": 74602.67,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 1250.0,\n  \"fees\": 47.9,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian US Equity Tracker Acc GBP\",\n      \"units\": 7124.34,\n      \"value\": 18114.28\n    },\n    {\n      \"fund_name\": \"Larchmont Emerging Markets Equity Acc GBP\",\n      \"units\": 4930.745,\n      \"value\": 26656.99\n    },\n    {\n      \"fund_name\": \"Meridian Multi-Asset Balanced Inc\",\n      \"units\": 1075.55,\n      \"value\": 5342.75\n    },\n    {\n      \"fund_name\": \"Hartsop UK Equity Income Inc\",\n      \"units\": 650.51,\n      \"value\": 3992.0\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies Acc\",\n      \"units\": 265.403,\n      \"value\": 1307.66\n    },\n    {\n      \"fund_name\": \"Saltmarsh Global Equity Index Inc\",\n      \"units\": 3343.582,\n      \"value\": 6099.36\n    },\n    {\n      \"fund_name\": \"Meridian UK Gilt Tracker Acc GBP\",\n      \"units\": 3578.794,\n      \"value\": 13089.63\n    }\n  ]\n}",
+  "latency_ms": 128705,
+  "prompt_tokens": 1502,
+  "completion_tokens": 495
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_050",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 8522 5629\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 148400.46,\n  \"closing_value\": 153407.39,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 81.11,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Wrekin Global Property Securities Inc\",\n      \"units\": 7857.539,\n      \"value\": 24798.94\n    },\n    {\n      \"fund_name\": \"Calder UK Equity Income C Acc\",\n      \"units\": 8918.391,\n      \"value\": 8406.24\n    },\n    {\n      \"fund_name\": \"Wrekin Multi-Asset Balanced Inc\",\n      \"units\": 7636.586,\n      \"value\": 41780.18\n    },\n    {\n      \"fund_name\": \"Wrekin Japan Equity Acc\",\n      \"units\": 3393.019,\n      \"value\": 18741.56\n    },\n    {\n      \"fund_name\": \"Larchmont UK Gilt Tracker Inc\",\n      \"units\": 1954.261,\n      \"value\": 9945.83\n    },\n    {\n      \"fund_name\": \"Larchmont European Smaller Companies C Acc\",\n      \"units\": 4237.286,\n      \"value\": 13319.07\n    },\n    {\n      \"fund_name\": \"Orwell US Equity Tracker Inc\",\n      \"units\": 1801.268,\n      \"value\": 9655.53\n    },\n    {\n      \"fund_name\": \"Wrekin Short-Dated Bond C Acc\",\n      \"units\": 6589.208,\n      \"value\": 8614.16\n    },\n    {\n      \"fund_name\": \"Calder Emerging Markets Equity Acc\",\n      \"units\": 8803.066,\n      \"value\": 18145.88\n    }\n  ]\n}",
+  "latency_ms": 153430,
+  "prompt_tokens": 1754,
+  "completion_tokens": 603
+ }
+}

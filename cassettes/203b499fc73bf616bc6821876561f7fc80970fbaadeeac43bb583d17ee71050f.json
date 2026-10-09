@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_035",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/883619/49\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 89063.27,\n  \"closing_value\": 83182.22,\n  \"contributions\": 0.0,\n  \"withdrawals\": 4900.0,\n  \"fees\": 47.17,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Asia Pacific ex Japan C Acc\",\n      \"units\": 2405.325,\n      \"value\": 5565.14\n    },\n    {\n      \"fund_name\": \"Calder UK Equity Income Acc GBP\",\n      \"units\": 608.086,\n      \"value\": 667.84\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond Inc\",\n      \"units\": 8763.099,\n      \"value\": 13592.1\n    },\n    {\n      \"fund_name\": \"Saltmarsh Multi-Asset Balanced C Acc\",\n      \"units\": 7818.261,\n      \"value\": 20900.74\n    },\n    {\n      \"fund_name\": \"Meridian Japan Equity Acc\",\n      \"units\": 4535.766,\n      \"value\": 7275.69\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies Acc GBP\",\n      \"units\": 5462.376,\n      \"value\": 35180.71\n    }\n  ]\n}",
+  "latency_ms": 119631,
+  "prompt_tokens": 1693,
+  "completion_tokens": 446
+ }
+}

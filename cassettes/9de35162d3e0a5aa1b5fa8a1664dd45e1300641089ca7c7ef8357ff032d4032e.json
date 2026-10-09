@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_024",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW40871523\",\n  \"statement_start\": \"2025-04-01\",\n  \"statement_end\": \"2025-06-30\",\n  \"opening_value\": 99476.9,\n  \"closing_value\": 101231.22,\n  \"contributions\": 2250.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont UK Gilt Tracker Inc\",\n      \"units\": 6297.878,\n      \"value\": 31190.08\n    },\n    {\n      \"fund_name\": \"Calder Emerging Markets Equity Inc\",\n      \"units\": 472.935,\n      \"value\": 2788.35\n    },\n    {\n      \"fund_name\": \"Wrekin Emerging Markets Equity Inc\",\n      \"units\": 618.429,\n      \"value\": 883.72\n    },\n    {\n      \"fund_name\": \"Orwell UK Gilt Tracker Acc\",\n      \"units\": 8616.206,\n      \"value\": 54560.84\n    },\n    {\n      \"fund_name\": \"Wrekin UK Equity Income Acc GBP\",\n      \"units\": 4747.725,\n      \"value\": 3867.74\n    },\n    {\n      \"fund_name\": \"Pennine Japan Equity Acc GBP\",\n      \"units\": 2046.254,\n      \"value\": 7940.49\n    }\n  ]\n}",
+  "latency_ms": 114800,
+  "prompt_tokens": 1601,
+  "completion_tokens": 438
+ }
+}

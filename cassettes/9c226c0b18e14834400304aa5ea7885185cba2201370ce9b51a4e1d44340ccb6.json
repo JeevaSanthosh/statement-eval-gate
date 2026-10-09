@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_031",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/305854/17\",\n  \"statement_start\": \"2025-10-01\",\n  \"statement_end\": \"2025-12-31\",\n  \"opening_value\": 98806.9,\n  \"closing_value\": 95605.88,\n  \"contributions\": 450.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 77.08,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Wrekin Global Equity Index Acc\",\n      \"units\": 6069146,\n      \"value\": 29546.45\n    },\n    {\n      \"fund_name\": \"Hartsop US Equity Tracker C Acc\",\n      \"units\": 2188511,\n      \"value\": 9853.47\n    },\n    {\n      \"fund_name\": \"Meridian Multi-Asset Balanced Inc\",\n      \"units\": 6240608,\n      \"value\": 21772.04\n    },\n    {\n      \"fund_name\": \"Calder Global Equity Index Acc GBP\",\n      \"units\": 4310313,\n      \"value\": 7837.57\n    },\n    {\n      \"fund_name\": \"Larchmont Short-Dated Bond Acc\",\n      \"units\": 5407683,\n      \"value\": 6260.08\n    },\n    {\n      \"fund_name\": \"Pennine Giobal Property Securities Inc\",\n      \"units\": 2177865,\n      \"value\": 13992.8\n    },\n    {\n      \"fund_name\": \"Wrekin Asia Pacific ex Japan Acc\",\n      \"units\": 2089323,\n      \"value\": 6343.47\n    }\n  ]\n}",
+  "latency_ms": 130341,
+  "prompt_tokens": 1752,
+  "completion_tokens": 490
+ }
+}

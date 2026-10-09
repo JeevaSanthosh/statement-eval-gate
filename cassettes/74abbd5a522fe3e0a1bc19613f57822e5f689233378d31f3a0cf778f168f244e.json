@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_028",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW52521507\",\n  \"statement_start\": \"2025-01-01\",\n  \"statement_end\": \"2025-03-31\",\n  \"opening_value\": 149112.39,\n  \"closing_value\": 150495.4,\n  \"contributions\": 600.0,\n  \"withdrawals\": 1950.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Global Property Securities Acc\",\n      \"units\": 7433.557,\n      \"value\": 39184.16\n    },\n    {\n      \"fund_name\": \"Wrekin Global Property Securities Acc\",\n      \"units\": 7842.584,\n      \"value\": 19638.9\n    },\n    {\n      \"fund_name\": \"Larchmont Short-Dated Bond Inc\",\n      \"units\": 8649.999,\n      \"value\": 33134.05\n    },\n    {\n      \"fund_name\": \"Pennine Japan Equity Acc\",\n      \"units\": 8515.613,\n      \"value\": 12435.16\n    },\n    {\n      \"fund_name\": \"Pennine UK Equity Income Acc\",\n      \"units\": 8717.401,\n      \"value\": 46103.13\n    }\n  ]\n}",
+  "latency_ms": 106887,
+  "prompt_tokens": 1586,
+  "completion_tokens": 395
+ }
+}

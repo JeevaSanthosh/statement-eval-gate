@@ -1,0 +1,17 @@
+{
+  "provider": "ollama",
+  "model": "qwen3.5:4b",
+  "prompt": "prompts/extract_v1.md",
+  "prompt_sha256": "995bee6f699ceff9cc549045474e44650fe457b48747a3b3a6f5296874393019",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192
+  },
+  "think": false,
+  "mode": "replay",
+  "documents": 60,
+  "recorded_now": 0,
+  "seg_version": "0.1.0",
+  "finished_at": "2026-10-09T22:08:12+00:00"
+}
