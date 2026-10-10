@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_026",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 5434 7187\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 84987.82,\n  \"closing_value\": 86034.51,\n  \"contributions\": 750.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 35.68,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Multi-Asset Balanced C Acc\",\n      \"units\": 5920.644,\n      \"value\": 28693.12\n    },\n    {\n      \"fund_name\": \"Orwell Sterling Corporate Bond C Acc\",\n      \"units\": 1305.897,\n      \"value\": 7970.7\n    },\n    {\n      \"fund_name\": \"Calder US Equity Tracker Inc\",\n      \"units\": 3102.126,\n      \"value\": 10552.36\n    },\n    {\n      \"fund_name\": \"Wrekin Asia Pacific ex Japan Acc GBP\",\n      \"units\": 6373.978,\n      \"value\": 29219.54\n    },\n    {\n      \"fund_name\": \"Saltmarsh Asia Pacific ex Japan Acc\",\n      \"units\": 6574.166,\n      \"value\": 5578.22\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Acc\",\n      \"units\": 646.074,\n      \"value\": 4020.57\n    }\n  ]\n}",
+  "latency_ms": 134552,
+  "prompt_tokens": 1479,
+  "completion_tokens": 448
+ }
+}

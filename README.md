@@ -28,7 +28,7 @@ statements   or OCR       to cassettes/       F1          blocks the PR
 | Step | What it does |
 |---|---|
 | `seg generate` | Builds 60 statements from four fictional providers, with the right answer for each. About a fifth are rendered as noisy scans with no text layer. |
-| `seg prepare` | Reads the text layer, or runs Tesseract OCR on pages that have none, and saves the text. The text is committed so every model request is reproducible. |
+| `seg prepare` | Reads the text layer, or runs Tesseract OCR on pages that have none and puts back the decimal point in unit counts, then saves the text. The text is committed so every model request is reproducible. |
 | `seg extract` | Sends each statement to the model with a JSON schema for structured output. In `record` mode the response is saved under a hash of the full request; in `replay` mode it is read back. |
 | `seg score` | Per-field precision, recall and F1, broken down by provider and by scanned vs native. Optional MLflow logging. |
 | `seg gate` | Replays the candidate in `eval.toml`, scores it and the baseline with the same code, and fails if any field drops significantly. |
@@ -82,6 +82,10 @@ so a PR cannot pass by editing its own baseline.
 `qwen3.5:4b` through Ollama on a Windows desktop: CPU only, thinking off,
 temperature 0. All 60 statements, recorded once and replayed in CI.
 
+### First run: two prompts
+
+Before the OCR repair described below.
+
 | Field | Prompt v1 | Prompt v2 |
 |---|---:|---:|
 | provider | 1.000 | 1.000 |
@@ -104,7 +108,9 @@ changed the answers on 7 statements and the scores not at all: holdings moved
 −0.003, with a 95% interval of −0.020 to +0.011. The gate passes v2, and the
 baseline stays on the shorter prompt.
 
-**Holdings are the weak field, and scans are why.**
+### Where it failed
+
+Holdings are the weak field, and scans are why.
 
 | | Native PDF (48) | Scanned (12) |
 |---|---:|---:|
@@ -121,6 +127,25 @@ intact, and in 52 of the other 57 the digits are right but the punctuation is
 wrong: `8,395.242` arrives as `8,395,242`. The model copies what it is given.
 Averaged over fields the model scores 0.97, which would hide that it gets
 holdings on scans right less than a fifth of the time.
+
+### Fixing the scans
+
+Unit counts are printed to three decimal places, so `seg prepare` now puts the
+separators back in any OCR'd number whose last group has three digits. Money
+has two decimal places and is never touched. On the scanned text, intact unit
+counts go from 14 to 66 of 71, and no number that was right before changes.
+Only the 12 scanned statements needed new model responses.
+
+| | Before | After |
+|---|---:|---:|
+| Scanned holdings exactly right | 13 of 71 | 49 of 71 |
+| Holdings F1, scans | 0.183 | 0.690 |
+| Holdings F1, all 60 | 0.783 | 0.889 |
+| Macro F1, all 60 | 0.972 | 0.984 |
+
+The gate marks holdings **better**: +0.106, with a 95% interval of +0.047 to
++0.176. Every other field passes, and the native statements' answers are
+unchanged. That one regular expression did more than any prompt change.
 
 Each statement takes a median of 118 s (83 to 174 s) and about 430 output
 tokens, so a full run is two hours on CPU.
@@ -140,6 +165,9 @@ seg extract                            # record the rest; prints one line per st
 seg promote runs/extract_v1__ollama-qwen3.5-4b
 seg score results/baseline --mlflow    # per-field F1, logged to MLflow
 ```
+
+If your terminal says `seg` is not recognised (common on Windows), use
+`python -m seg.cli` in its place, e.g. `python -m seg.cli extract --limit 3`.
 
 Recording is incremental: stop it half way and run it again, and it picks up
 where it left off.
@@ -192,12 +220,13 @@ seg prepare
 
 ## Next
 
-- Repair OCR'd unit counts. Units are printed to three decimal places, so a
-  comma in the decimal position can be put back, which covers 52 of the 57
-  damaged counts. Measure whether that lifts holdings on scans.
+- Fund names are now the largest error. 16 holdings lose the end of their
+  name, usually `GBP` from `Acc GBP` (9 on scans, 7 on native PDFs), even though
+  the text has it. Unlike the v2 rules, a prompt rule aimed at this targets a
+  measured failure; put it through the gate.
 - Guardrails: a reconciliation check (holdings sum to the closing value) that
-  rejects an extraction before it is used. It would also catch most of the OCR
-  damage above.
+  rejects an extraction before it is used. It catches wrong values and missing
+  holdings, not wrong names.
 - An adversarial set: instructions hidden in statement text, totals that do not
   reconcile, pages out of order.
 - RAGAS and DeepEval run alongside per-field F1, with a write-up of where they

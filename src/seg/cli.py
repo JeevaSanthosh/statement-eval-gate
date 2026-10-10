@@ -105,7 +105,9 @@ def cmd_promote(a):
     score_run(a.run, a.data)
     a.to.mkdir(parents=True, exist_ok=True)
     for name in BASELINE_FILES:
-        shutil.copy2(a.run / name, a.to / name)
+        # copyfile, not copy2: keeping the source's old timestamp can make git miss the change
+        # when the new file is the same size as the one it replaces.
+        shutil.copyfile(a.run / name, a.to / name)
     run = json.loads((a.run / "run.json").read_text(encoding="utf-8"))
     print(f"Baseline is now {run['model']} with {run['prompt']} ({a.to}). Commit it with your change.")
 

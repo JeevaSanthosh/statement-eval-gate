@@ -21,11 +21,11 @@ Closing value €128,287.17
 Your investments
 
 Fund Units Price Value
-Orwell US Equity Tracker C Acc 6.045.340 4.8419 £29,270.68
-Wrekin Asia Pacific ex Japan Acc GBP 2.073.832 3.4115 €7,074.84
-Larchmont Global Equity Index Acc GBP 4,889,391 4.7713 £23,328.88
-Orwell Global Equity Index inc 6,630,857 5.9827 £39,670.71
-5,119,082 5.6538 £28,942.06
+Orwell US Equity Tracker C Acc 6,045.340 4.8419 £29,270.68
+Wrekin Asia Pacific ex Japan Acc GBP 2,073.832 3.4115 €7,074.84
+Larchmont Global Equity Index Acc GBP 4,889.391 4.7713 £23,328.88
+Orwell Global Equity Index inc 6,630.857 5.9827 £39,670.71
+5,119.082 5.6538 £28,942.06
 
 Calder Japan Equity Acc
 £128,287.17
