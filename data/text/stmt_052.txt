@@ -16,10 +16,10 @@ Portfolio value carried forward
 investment Holding
 Saltmarsh Japan Equity Inc 5,795.136
 Larchmont Japan Equity Inc 740.478
-Larchmont UK Equity Income Acc GBP 4.885.824
+Larchmont UK Equity Income Acc GBP 4,885.824
 Orwell Global Equity Index Acc GBP §,643.221
-Calder Asia Pacific ex Japan Inc 4.187.439
-Hartsop US Equity Tracker Acc 3,110,506
+Calder Asia Pacific ex Japan Inc 4,187.439
+Hartsop US Equity Tracker Acc 3,110.506
 
 £88,732.33
 £0.00

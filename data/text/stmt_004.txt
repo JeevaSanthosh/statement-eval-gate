@@ -14,11 +14,11 @@ Money withdrawn (€3,400,00)
 
 Portfolio value carried forward £128,447.44
 Investment Holding Market value
-Orwell Short-Dated Bond Acc GBP 8,395,242 £49,681.26
+Orwell Short-Dated Bond Acc GBP 8,395.242 £49,681.26
 Meridian Global Equity Index Acc 863.800 £3,280.64
-Pennine European Smaller Companies inc 6.721.722 £23,532.70
-Meridian US Equity Tracker C Acc 7,290,600 £40.994,76
-Hartsop Asia Pacific ex Japan C Acc 2.143.679 £10,957.88
+Pennine European Smaller Companies inc 6,721.722 £23,532.70
+Meridian US Equity Tracker C Acc 7,290.600 £40.994,76
+Hartsop Asia Pacific ex Japan C Acc 2,143.679 £10,957.88
 
 Charges for this period will be shown in your annual costs and charges report. Custody services are
 provided by Fernhill Nominees Limited.

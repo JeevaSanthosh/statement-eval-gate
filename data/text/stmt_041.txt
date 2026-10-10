@@ -14,10 +14,10 @@ Charges £11.50
 Closing value £40,903.73
 Your investments
 Fund Units Price Value
-Pennine Emerging Markets Equity Acc GBP 560,518 3.2092 £1,798.80
-Pennine Asia Pacific ex Japan Inc 2.161.327 5.1139 £11,052.91
-Calder Short-Dated Bond Acc GBP 2.207.535 5.4967 £12,134.05
-Meridian UK Equity Income Acc GBP 2.203.621 1.3277 £2,925.80
+Pennine Emerging Markets Equity Acc GBP 560.518 3.2092 £1,798.80
+Pennine Asia Pacific ex Japan Inc 2,161.327 5.1139 £11,052.91
+Calder Short-Dated Bond Acc GBP 2,207.535 5.4967 £12,134.05
+Meridian UK Equity Income Acc GBP 2,203.621 1.3277 £2,925.80
 
 Hartsop Short-Dated Bond Acc GBP 4,317.935 3.0089 £12,992.17
 £40,903.73

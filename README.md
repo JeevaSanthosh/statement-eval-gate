@@ -28,7 +28,7 @@ statements   or OCR       to cassettes/       F1          blocks the PR
 | Step | What it does |
 |---|---|
 | `seg generate` | Builds 60 statements from four fictional providers, with the right answer for each. About a fifth are rendered as noisy scans with no text layer. |
-| `seg prepare` | Reads the text layer, or runs Tesseract OCR on pages that have none, and saves the text. The text is committed so every model request is reproducible. |
+| `seg prepare` | Reads the text layer, or runs Tesseract OCR on pages that have none and puts back the decimal point in unit counts, then saves the text. The text is committed so every model request is reproducible. |
 | `seg extract` | Sends each statement to the model with a JSON schema for structured output. In `record` mode the response is saved under a hash of the full request; in `replay` mode it is read back. |
 | `seg score` | Per-field precision, recall and F1, broken down by provider and by scanned vs native. Optional MLflow logging. |
 | `seg gate` | Replays the candidate in `eval.toml`, scores it and the baseline with the same code, and fails if any field drops significantly. |

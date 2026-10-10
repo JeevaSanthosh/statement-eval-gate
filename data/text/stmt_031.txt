@@ -26,13 +26,13 @@ Date Description Amount
 1 December 2025 Annual management charge -£25.70
 Where your pension is invested
 Fund Units Value
-Wrekin Global Equity Index Acc 6.069.146 £29,546.45
-Hartsop US Equity Tracker C Acc 2.188.511 £9,853.47
-Meridian Multi-Asset Balanced Inc 6.240.608 £21,772.04
+Wrekin Global Equity Index Acc 6,069.146 £29,546.45
+Hartsop US Equity Tracker C Acc 2,188.511 £9,853.47
+Meridian Multi-Asset Balanced Inc 6,240.608 £21,772.04
 Calder Global Equity Index Acc GBP 4,310.313 £7,837.57
-Larchmont Short-Dated Bond Acc 5.407.683 £6,260.08
-Pennine Giobal Property Securities Inc 2.177.865 £13,992.80
-Wrekin Asia Pacific ex Japan Acc 2.089.323 £6,343.47
+Larchmont Short-Dated Bond Acc 5,407.683 £6,260.08
+Pennine Giobal Property Securities Inc 2,177.865 £13,992.80
+Wrekin Asia Pacific ex Japan Acc 2,089.323 £6,343.47
 Period summary
 
 Total contributions £450.00

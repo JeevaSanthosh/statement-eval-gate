@@ -19,9 +19,9 @@ Date Description Amount
 1 March 2026 Annual management charge £25.01
 Where your pension is invested
 Fund Units Value
-Saltmarsh Global Equity Index Acc 7,605,495 £26,219.54
-Saltmarsh Short-Dated Bond Acc GBP 5.687.194 £24,840.10
-Pennine Giobai Property Securities Acc GBP 7.773.347 £47,723.83
+Saltmarsh Global Equity Index Acc 7,605.495 £26,219.54
+Saltmarsh Short-Dated Bond Acc GBP 5,687.194 £24,840.10
+Pennine Giobai Property Securities Acc GBP 7,773.347 £47,723.83
 Period summary
 Total contributions £300.00
 Total withdrawais £0.00

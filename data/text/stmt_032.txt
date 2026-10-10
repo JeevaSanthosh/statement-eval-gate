@@ -14,10 +14,10 @@ Money withdrawn (£3,800.00)
 
 Porttolio value carried forward £79,301.45
 Investment Holding Market value
-Saltmarsh Emerging Markets Equity Acc GBP 3.329.446 £12,859.98
-Pennine Muiti-Asset Balanced C Acc 8.692.171 £14,936.19
-Wrekin US Equity Tracker Acc GBP 4.797.029 £21,608.99
-Saltmarsh Japan Equity C Acc 4,864,124 £29,896.29
+Saltmarsh Emerging Markets Equity Acc GBP 3,329.446 £12,859.98
+Pennine Muiti-Asset Balanced C Acc 8,692.171 £14,936.19
+Wrekin US Equity Tracker Acc GBP 4,797.029 £21,608.99
+Saltmarsh Japan Equity C Acc 4,864.124 £29,896.29
 
 Charges for this period will be shown in your annual costs and charges report. Custody services are
 provided by Fernhill Nominees Limited.

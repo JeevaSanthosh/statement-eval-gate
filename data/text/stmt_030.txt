@@ -9,14 +9,14 @@ Value at end of period: £180,725.56
 
 Your holdings
 Fund Units Value
-Pennine Short-Dated Bond Acc GBP 4,859,251 £16,838.40
-Orwell Asia Pacific ex Japan Acc 4,374,184 £10,833.33
-Calder Emerging Markets Equity C Acc 8.428.997 £53,093,37
-Meridian Japan Equity Acc GBP 4.795.006 £10,130.19
+Pennine Short-Dated Bond Acc GBP 4,859.251 £16,838.40
+Orwell Asia Pacific ex Japan Acc 4,374.184 £10,833.33
+Calder Emerging Markets Equity C Acc 8,428.997 £53,093,37
+Meridian Japan Equity Acc GBP 4,795.006 £10,130.19
 Wrekin Global Property Securities Acc GBP 5,027.149 £27,532.22
-Calder Asia Pacific ex Japan Acc 2,564,109 £16,285.30
+Calder Asia Pacific ex Japan Acc 2,564.109 £16,285.30
 
-Wrekin Emerging Markets Equity Inc 5.214.717 £25,367.80
+Wrekin Emerging Markets Equity Inc 5,214.717 £25,367.80
 
 [Page 2]
 Your holdings (continued)
@@ -25,7 +25,7 @@ Fund Units
 
 Wrekin Emerging Markets Equity Inc 5,214.717
 
-Meridian Emerging Markets Equity Acc GBP 2.037.963
+Meridian Emerging Markets Equity Acc GBP 2,037.963
 
 Meridian UK Gilt Tracker C Ace 7,304.553
 
