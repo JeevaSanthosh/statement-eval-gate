@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_003",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/828288/07\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 47674.04,\n  \"closing_value\": 49735.68,\n  \"contributions\": 600.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 14.05,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Sterling Corporate Bond Inc\",\n      \"units\": 790.333,\n      \"value\": 4489.49\n    },\n    {\n      \"fund_name\": \"Wrekin Short-Dated Bond Acc GBP\",\n      \"units\": 636.938,\n      \"value\": 3641.9\n    },\n    {\n      \"fund_name\": \"Meridian Asia Pacific ex Japan Inc\",\n      \"units\": 4105.811,\n      \"value\": 11221.86\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond C Acc\",\n      \"units\": 4995.455,\n      \"value\": 30382.43\n    }\n  ]\n}",
+  "latency_ms": 98747,
+  "prompt_tokens": 1662,
+  "completion_tokens": 346
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_033",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-40461297\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 979345.9,\n  \"closing_value\": 95377.22,\n  \"contributions\": 450.0,\n  \"withdrawals\": 4050.0,\n  \"fees\": 27.94,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont Global Equity index Acc\",\n      \"units\": 4274392,\n      \"value\": 15295.22\n    },\n    {\n      \"fund_name\": \"Hartsop Global Equity Index C Acc\",\n      \"units\": 1024.528,\n      \"value\": 4062.46\n    },\n    {\n      \"fund_name\": \"Pennine Global Equity index Acc\",\n      \"units\": 4449726,\n      \"value\": 13824.2\n    },\n    {\n      \"fund_name\": \"Saltmarsh Asia Pacific ex Japan Acc GBP\",\n      \"units\": 4385.263,\n      \"value\": 26581.63\n    },\n    {\n      \"fund_name\": \"Orwell Multi-Asset Balanced Acc GBP\",\n      \"units\": 8192225,\n      \"value\": 26438.13\n    },\n    {\n      \"fund_name\": \"Saltmarsh Global Equity index C Acc\",\n      \"units\": 584000,\n      \"value\": 1102.3\n    },\n    {\n      \"fund_name\": \"Meridian Global Property Securities inc\",\n      \"units\": 2424167,\n      \"value\": 8073.28\n    }\n  ]\n}",
+  "latency_ms": 127632,
+  "prompt_tokens": 1500,
+  "completion_tokens": 492
+ }
+}

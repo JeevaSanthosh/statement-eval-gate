@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_058",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 5653 5938\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 171878.16,\n  \"closing_value\": 176239.78,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 73.44,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell European Smaller Companies C Acc\",\n      \"units\": 4059.865,\n      \"value\": 25519.09\n    },\n    {\n      \"fund_name\": \"Saltmarsh US Equity Tracker Acc\",\n      \"units\": 4218.854,\n      \"value\": 23963.07\n    },\n    {\n      \"fund_name\": \"Larchmont Japan Equity C Acc\",\n      \"units\": 1992.822,\n      \"value\": 4177.63\n    },\n    {\n      \"fund_name\": \"Wrekin European Smaller Companies Acc\",\n      \"units\": 2742.103,\n      \"value\": 16334.07\n    },\n    {\n      \"fund_name\": \"Saltmarsh Japan Equity Inc\",\n      \"units\": 5994.459,\n      \"value\": 24609.35\n    },\n    {\n      \"fund_name\": \"Wrekin US Equity Tracker Acc\",\n      \"units\": 7122.033,\n      \"value\": 28129.65\n    },\n    {\n      \"fund_name\": \"Pennine European Smaller Companies Acc\",\n      \"units\": 5860.072,\n      \"value\": 29198.88\n    },\n    {\n      \"fund_name\": \"Larchmont European Smaller Companies C Acc\",\n      \"units\": 4897.91,\n      \"value\": 24308.04\n    }\n  ]\n}",
+  "latency_ms": 140755,
+  "prompt_tokens": 1535,
+  "completion_tokens": 550
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_016",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW31646204\",\n  \"statement_start\": \"2025-04-01\",\n  \"statement_end\": \"2025-06-30\",\n  \"opening_value\": 90458.73,\n  \"closing_value\": 93427.95,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont Global Property Securities Inc\",\n      \"units\": 5342.636,\n      \"value\": 30496.91\n    },\n    {\n      \"fund_name\": \"Pennine Global Property Securities Acc GBP\",\n      \"units\": 1359.096,\n      \"value\": 5524.99\n    },\n    {\n      \"fund_name\": \"Larchmont UK Gilt Tracker Inc\",\n      \"units\": 6729.344,\n      \"value\": 11686.46\n    },\n    {\n      \"fund_name\": \"Calder Short-Dated Bond Inc\",\n      \"units\": 7441.084,\n      \"value\": 45719.59\n    }\n  ]\n}",
+  "latency_ms": 94672,
+  "prompt_tokens": 1367,
+  "completion_tokens": 345
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_045",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-01199098\",\n  \"statement_start\": \"2025-04-01\",\n  \"statement_end\": \"2025-06-30\",\n  \"opening_value\": 35932.27,\n  \"closing_value\": 38276.56,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 12.43,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Sterling Corporate Bond Acc\",\n      \"units\": 8577.073,\n      \"value\": 16106.39\n    },\n    {\n      \"fund_name\": \"Pennine Japan Equity C Acc\",\n      \"units\": 942.479,\n      \"value\": 2967.0\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan C Acc\",\n      \"units\": 4605.664,\n      \"value\": 7598.95\n    },\n    {\n      \"fund_name\": \"Hartsop Japan Equity Inc\",\n      \"units\": 2021.86,\n      \"value\": 11604.22\n    }\n  ]\n}",
+  "latency_ms": 94854,
+  "prompt_tokens": 1571,
+  "completion_tokens": 344
+ }
+}

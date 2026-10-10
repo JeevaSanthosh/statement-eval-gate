@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_040",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW39665799\",\n  \"statement_start\": \"2025-10-01\",\n  \"statement_end\": \"2025-12-31\",\n  \"opening_value\": 41639.91,\n  \"closing_value\": 40650.29,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine UK Gilt Tracker Inc\",\n      \"units\": 581.631,\n      \"value\": 1736.85\n    },\n    {\n      \"fund_name\": \"Calder Global Equity Index Acc GBP\",\n      \"units\": 5887.139,\n      \"value\": 20846.16\n    },\n    {\n      \"fund_name\": \"Saltmarsh Emerging Markets Equity Acc\",\n      \"units\": 4789.0,\n      \"value\": 9179.71\n    },\n    {\n      \"fund_name\": \"Hartsop Global Property Securities Acc\",\n      \"units\": 2358.851,\n      \"value\": 8887.57\n    }\n  ]\n}",
+  "latency_ms": 92151,
+  "prompt_tokens": 1544,
+  "completion_tokens": 335
+ }
+}

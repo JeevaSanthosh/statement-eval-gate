@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_032",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW33089640\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 77561.21,\n  \"closing_value\": 79301.45,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 3800.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh Emerging Markets Equity Acc\",\n      \"units\": 3329446,\n      \"value\": 12859.98\n    },\n    {\n      \"fund_name\": \"Pennine Multi-Asset Balanced C Acc\",\n      \"units\": 8692171,\n      \"value\": 14936.19\n    },\n    {\n      \"fund_name\": \"Wrekin US Equity Tracker Acc\",\n      \"units\": 4797029,\n      \"value\": 21608.99\n    },\n    {\n      \"fund_name\": \"Saltmarsh Japan Equity C Acc\",\n      \"units\": 4864124,\n      \"value\": 29896.29\n    }\n  ]\n}",
+  "latency_ms": 94221,
+  "prompt_tokens": 1563,
+  "completion_tokens": 343
+ }
+}

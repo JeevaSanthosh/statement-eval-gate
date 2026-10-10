@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_043",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/483752/55\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 101081.62,\n  \"closing_value\": 102376.78,\n  \"contributions\": 3000.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 60.93,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh UK Gilt Tracker C Acc\",\n      \"units\": 1728.25,\n      \"value\": 1583.35\n    },\n    {\n      \"fund_name\": \"Saltmarsh Multi-Asset Balanced Acc\",\n      \"units\": 6082.1,\n      \"value\": 26047.37\n    },\n    {\n      \"fund_name\": \"Larchmont Emerging Markets Equity Acc GBP\",\n      \"units\": 2672.391,\n      \"value\": 5187.34\n    },\n    {\n      \"fund_name\": \"Hartsop Sterling Corporate Bond C Acc\",\n      \"units\": 7703.802,\n      \"value\": 46090.63\n    },\n    {\n      \"fund_name\": \"Meridian Emerging Markets Equity C Acc\",\n      \"units\": 2130.729,\n      \"value\": 8821.59\n    },\n    {\n      \"fund_name\": \"Wrekin Japan Equity Inc\",\n      \"units\": 5188.832,\n      \"value\": 13674.7\n    },\n    {\n      \"fund_name\": \"Hartsop Japan Equity Inc\",\n      \"units\": 366.11,\n      \"value\": 971.8\n    }\n  ]\n}",
+  "latency_ms": 130167,
+  "prompt_tokens": 1576,
+  "completion_tokens": 491
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_002",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 7866 6617\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 140949.89,\n  \"closing_value\": 140517.45,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 850.0,\n  \"fees\": 131.03,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Global Property Securities Inc\",\n      \"units\": 5929.124,\n      \"value\": 16585.67\n    },\n    {\n      \"fund_name\": \"Larchmont Japan Equity Acc GBP\",\n      \"units\": 4955.994,\n      \"value\": 7664.98\n    },\n    {\n      \"fund_name\": \"Wrekin Global Property Securities Inc\",\n      \"units\": 167.617,\n      \"value\": 1061.7\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Acc\",\n      \"units\": 5861.085,\n      \"value\": 22280.98\n    },\n    {\n      \"fund_name\": \"Wrekin Asia Pacific ex Japan Inc\",\n      \"units\": 8405.278,\n      \"value\": 27508.07\n    },\n    {\n      \"fund_name\": \"Larchmont Multi-Asset Balanced Inc\",\n      \"units\": 7850.817,\n      \"value\": 43250.82\n    },\n    {\n      \"fund_name\": \"Wrekin Multi-Asset Balanced C Acc\",\n      \"units\": 1930.939,\n      \"value\": 4316.53\n    },\n    {\n      \"fund_name\": \"Wrekin Emerging Markets Equity C Acc\",\n      \"units\": 2664.981,\n      \"value\": 5785.87\n    },\n    {\n      \"fund_name\": \"Calder Global Equity Index Acc GBP\",\n      \"units\": 5294.477,\n      \"value\": 12062.83\n    }\n  ]\n}",
+  "latency_ms": 160722,
+  "prompt_tokens": 1755,
+  "completion_tokens": 605
+ }
+}

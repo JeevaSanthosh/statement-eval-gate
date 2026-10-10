@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_010",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 2739 0000\",\n  \"statement_start\": \"2025-01-01\",\n  \"statement_end\": \"2025-03-31\",\n  \"opening_value\": 166744.59,\n  \"closing_value\": 163075.91,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 65.93,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont Multi-Asset Balanced Inc\",\n      \"units\": 8797.576,\n      \"value\": 42177.49\n    },\n    {\n      \"fund_name\": \"Meridian Emerging Markets Equity C Acc\",\n      \"units\": 316.594,\n      \"value\": 503.03\n    },\n    {\n      \"fund_name\": \"Meridian Global Property Securities Inc\",\n      \"units\": 5806.161,\n      \"value\": 6056.31\n    },\n    {\n      \"fund_name\": \"Larchmont Sterling Corporate Bond Inc\",\n      \"units\": 647.736,\n      \"value\": 690.57\n    },\n    {\n      \"fund_name\": \"Larchmont UK Equity Income Inc\",\n      \"units\": 7714.222,\n      \"value\": 39667.16\n    },\n    {\n      \"fund_name\": \"Wrekin Japan Equity Acc GBP\",\n      \"units\": 1825.837,\n      \"value\": 11395.14\n    },\n    {\n      \"fund_name\": \"Larchmont US Equity Tracker C Acc\",\n      \"units\": 4823.692,\n      \"value\": 22120.16\n    },\n    {\n      \"fund_name\": \"Saltmarsh US Equity Tracker C Acc\",\n      \"units\": 7922.243,\n      \"value\": 40466.05\n    }\n  ]\n}",
+  "latency_ms": 144046,
+  "prompt_tokens": 1713,
+  "completion_tokens": 548
+ }
+}

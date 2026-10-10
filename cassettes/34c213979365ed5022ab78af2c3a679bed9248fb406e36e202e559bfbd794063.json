@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_034",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 1068 0382\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 137639.61,\n  \"closing_value\": 143115.3,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 126.89,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Japan Equity Inc\",\n      \"units\": 2308.471,\n      \"value\": 9349.23\n    },\n    {\n      \"fund_name\": \"Larchmont Short-Dated Bond Acc\",\n      \"units\": 2037.743,\n      \"value\": 3381.33\n    },\n    {\n      \"fund_name\": \"Orwell UK Gilt Tracker Inc\",\n      \"units\": 6710.5,\n      \"value\": 42384.94\n    },\n    {\n      \"fund_name\": \"Pennine Multi-Asset Balanced Acc GBP\",\n      \"units\": 6420.085,\n      \"value\": 8606.8\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies Acc GBP\",\n      \"units\": 3942.791,\n      \"value\": 21573.85\n    },\n    {\n      \"fund_name\": \"Wrekin Sterling Corporate Bond Acc GBP\",\n      \"units\": 8708.528,\n      \"value\": 51838.37\n    },\n    {\n      \"fund_name\": \"Pennine Short-Dated Bond Acc\",\n      \"units\": 671.991,\n      \"value\": 3423.63\n    },\n    {\n      \"fund_name\": \"Pennine Emerging Markets Equity Inc\",\n      \"units\": 1609.565,\n      \"value\": 2557.15\n    }\n  ]\n}",
+  "latency_ms": 139876,
+  "prompt_tokens": 1716,
+  "completion_tokens": 543
+ }
+}

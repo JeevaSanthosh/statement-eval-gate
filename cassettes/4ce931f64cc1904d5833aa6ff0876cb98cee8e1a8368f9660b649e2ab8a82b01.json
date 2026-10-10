@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_004",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW48347824\",\n  \"statement_start\": \"2024-07-01\",\n  \"statement_end\": \"2024-09-30\",\n  \"opening_value\": 131706.83,\n  \"closing_value\": 128447.44,\n  \"contributions\": 450.0,\n  \"withdrawals\": 3400.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond Acc\",\n      \"units\": 8395242,\n      \"value\": 49681.26\n    },\n    {\n      \"fund_name\": \"Meridian Global Equity Index Acc\",\n      \"units\": 863.8,\n      \"value\": 3280.64\n    },\n    {\n      \"fund_name\": \"Pennine European Smaller Companies inc\",\n      \"units\": 6721722,\n      \"value\": 23532.7\n    },\n    {\n      \"fund_name\": \"Meridian US Equity Tracker C Acc\",\n      \"units\": 7290600,\n      \"value\": 40994.76\n    },\n    {\n      \"fund_name\": \"Hartsop Asia Pacific ex Japan C Acc\",\n      \"units\": 2143679,\n      \"value\": 10957.88\n    }\n  ]\n}",
+  "latency_ms": 105557,
+  "prompt_tokens": 1587,
+  "completion_tokens": 391
+ }
+}

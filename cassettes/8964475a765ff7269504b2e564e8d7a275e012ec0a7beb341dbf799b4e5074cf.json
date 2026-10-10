@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_014",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 7980 1696\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 153521.93,\n  \"closing_value\": 162843.2,\n  \"contributions\": 2250.0,\n  \"withdrawals\": 2050.0,\n  \"fees\": 46.16,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Sterling Corporate Bond Acc\",\n      \"units\": 4159.068,\n      \"value\": 5406.35\n    },\n    {\n      \"fund_name\": \"Pennine Sterling Corporate Bond Inc\",\n      \"units\": 7266.912,\n      \"value\": 37797.74\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Acc\",\n      \"units\": 2126.483,\n      \"value\": 8726.37\n    },\n    {\n      \"fund_name\": \"Hartsop Multi-Asset Balanced C Acc\",\n      \"units\": 8076.485,\n      \"value\": 47207.34\n    },\n    {\n      \"fund_name\": \"Orwell Sterling Corporate Bond Acc\",\n      \"units\": 4715.852,\n      \"value\": 16583.49\n    },\n    {\n      \"fund_name\": \"Orwell US Equity Tracker C Acc\",\n      \"units\": 5320.385,\n      \"value\": 9992.55\n    },\n    {\n      \"fund_name\": \"Wrekin Global Property Securities Acc\",\n      \"units\": 1763.134,\n      \"value\": 3226.45\n    },\n    {\n      \"fund_name\": \"Meridian UK Equity Income Acc\",\n      \"units\": 6321.535,\n      \"value\": 18130.84\n    },\n    {\n      \"fund_name\": \"Pennine UK Equity Income C Acc\",\n      \"units\": 5097.3,\n      \"value\": 15772.07\n    }\n  ]\n}",
+  "latency_ms": 153057,
+  "prompt_tokens": 1567,
+  "completion_tokens": 599
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_039",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/528862/41\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 68305.09,\n  \"closing_value\": 71333.29,\n  \"contributions\": 300.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 18.08,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Sterling Corporate Bond C Acc\",\n      \"units\": 5955.322,\n      \"value\": 22122.37\n    },\n    {\n      \"fund_name\": \"Wrekin Emerging Markets Equity Acc GBP\",\n      \"units\": 1361.295,\n      \"value\": 1462.4\n    },\n    {\n      \"fund_name\": \"Wrekin Short-Dated Bond Inc\",\n      \"units\": 7086.784,\n      \"value\": 26534.89\n    },\n    {\n      \"fund_name\": \"Saltmarsh Japan Equity Inc\",\n      \"units\": 4490.958,\n      \"value\": 21213.63\n    }\n  ]\n}",
+  "latency_ms": 98873,
+  "prompt_tokens": 1670,
+  "completion_tokens": 347
+ }
+}

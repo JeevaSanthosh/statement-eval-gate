@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_051",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/131481/97\",\n  \"statement_start\": \"2025-10-01\",\n  \"statement_end\": \"2025-12-31\",\n  \"opening_value\": 113646.65,\n  \"closing_value\": 113043.54,\n  \"contributions\": 600.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 30.16,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Calder Sterling Corporate Bond Inc\",\n      \"units\": 6268.732,\n      \"value\": 15453.29\n    },\n    {\n      \"fund_name\": \"Meridian Emerging Markets Equity C Acc\",\n      \"units\": 6207.077,\n      \"value\": 9810.42\n    },\n    {\n      \"fund_name\": \"Calder Global Equity Index C Acc\",\n      \"units\": 6832.269,\n      \"value\": 36685.8\n    },\n    {\n      \"fund_name\": \"Orwell Global Property Securities Acc\",\n      \"units\": 5632.377,\n      \"value\": 31668.24\n    },\n    {\n      \"fund_name\": \"Saltmarsh UK Gilt Tracker Acc\",\n      \"units\": 2594.168,\n      \"value\": 9346.57\n    },\n    {\n      \"fund_name\": \"Meridian Global Equity Index Acc GBP\",\n      \"units\": 1686.978,\n      \"value\": 10079.22\n    }\n  ]\n}",
+  "latency_ms": 120350,
+  "prompt_tokens": 1541,
+  "completion_tokens": 446
+ }
+}

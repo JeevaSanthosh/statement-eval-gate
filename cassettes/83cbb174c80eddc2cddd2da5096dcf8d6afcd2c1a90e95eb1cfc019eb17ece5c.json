@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_059",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/208456/37\",\n  \"statement_start\": \"2024-10-01\",\n  \"statement_end\": \"2024-12-31\",\n  \"opening_value\": 80977.4,\n  \"closing_value\": 83716.87,\n  \"contributions\": 1200.0,\n  \"withdrawals\": 2150.0,\n  \"fees\": 65.52,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Calder Global Equity Index C Acc\",\n      \"units\": 6399.13,\n      \"value\": 22967.21\n    },\n    {\n      \"fund_name\": \"Orwell Emerging Markets Equity C Acc\",\n      \"units\": 3864.99,\n      \"value\": 18660.34\n    },\n    {\n      \"fund_name\": \"Hartsop European Smaller Companies Inc\",\n      \"units\": 6534.51,\n      \"value\": 42089.32\n    }\n  ]\n}",
+  "latency_ms": 89840,
+  "prompt_tokens": 1673,
+  "completion_tokens": 300
+ }
+}

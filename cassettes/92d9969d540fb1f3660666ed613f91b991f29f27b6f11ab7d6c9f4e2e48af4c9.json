@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_054",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 6132 5159\",\n  \"statement_start\": \"2025-10-01\",\n  \"statement_end\": \"2025-12-31\",\n  \"opening_value\": 101711.46,\n  \"closing_value\": 103433.52,\n  \"contributions\": 3000.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 78.75,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Wrekin UK Equity Income C Acc\",\n      \"units\": 5288.283,\n      \"value\": 17183.03\n    },\n    {\n      \"fund_name\": \"Meridian UK Gilt Tracker C Acc\",\n      \"units\": 2209.59,\n      \"value\": 14132.07\n    },\n    {\n      \"fund_name\": \"Meridian Sterling Corporate Bond C Acc\",\n      \"units\": 6790.058,\n      \"value\": 18639.09\n    },\n    {\n      \"fund_name\": \"Larchmont Short-Dated Bond Inc\",\n      \"units\": 451.972,\n      \"value\": 2891.2\n    },\n    {\n      \"fund_name\": \"Wrekin Global Equity Index Acc GBP\",\n      \"units\": 2334.379,\n      \"value\": 13146.63\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond Acc\",\n      \"units\": 1090.802,\n      \"value\": 4933.12\n    },\n    {\n      \"fund_name\": \"Calder Japan Equity Inc\",\n      \"units\": 3233.498,\n      \"value\": 18970.43\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies C Acc\",\n      \"units\": 2701.832,\n      \"value\": 3713.45\n    },\n    {\n      \"fund_name\": \"Wrekin US Equity Tracker C Acc\",\n      \"units\": 1821.877,\n      \"value\": 9824.5\n    }\n  ]\n}",
+  "latency_ms": 152848,
+  "prompt_tokens": 1752,
+  "completion_tokens": 600
+ }
+}

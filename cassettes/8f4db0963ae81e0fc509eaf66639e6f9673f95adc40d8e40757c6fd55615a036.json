@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_044",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW15636359\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 98690.66,\n  \"closing_value\": 101107.4,\n  \"contributions\": 1500.0,\n  \"withdrawals\": 2500.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Hartsop Japan Equity Inc\",\n      \"units\": 1036.962,\n      \"value\": 2447.5\n    },\n    {\n      \"fund_name\": \"Calder UK Equity Income Acc GBP\",\n      \"units\": 2737.068,\n      \"value\": 5327.45\n    },\n    {\n      \"fund_name\": \"Hartsop Short-Dated Bond Acc GBP\",\n      \"units\": 8762.938,\n      \"value\": 46345.05\n    },\n    {\n      \"fund_name\": \"Wrekin Multi-Asset Balanced C Acc\",\n      \"units\": 8464.921,\n      \"value\": 46987.4\n    }\n  ]\n}",
+  "latency_ms": 95862,
+  "prompt_tokens": 1561,
+  "completion_tokens": 347
+ }
+}

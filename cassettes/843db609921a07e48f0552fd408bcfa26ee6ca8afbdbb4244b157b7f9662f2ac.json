@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_020",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW36512414\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 103017.9,\n  \"closing_value\": 102031.31,\n  \"contributions\": 2250.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine Short-Dated Bond C Acc\",\n      \"units\": 3292.264,\n      \"value\": 5788.27\n    },\n    {\n      \"fund_name\": \"Larchmont Sterling Corporate Bond C Acc\",\n      \"units\": 683.492,\n      \"value\": 588.92\n    },\n    {\n      \"fund_name\": \"Larchmont US Equity Tracker Acc GBP\",\n      \"units\": 8929.467,\n      \"value\": 45339.73\n    },\n    {\n      \"fund_name\": \"Saltmarsh UK Gilt Tracker Inc\",\n      \"units\": 792.387,\n      \"value\": 3872.95\n    },\n    {\n      \"fund_name\": \"Pennine US Equity Tracker Acc GBP\",\n      \"units\": 8822.742,\n      \"value\": 35404.11\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Inc\",\n      \"units\": 1014.87,\n      \"value\": 3639.93\n    },\n    {\n      \"fund_name\": \"Wrekin Global Equity Index Inc\",\n      \"units\": 3930.794,\n      \"value\": 7397.4\n    }\n  ]\n}",
+  "latency_ms": 126080,
+  "prompt_tokens": 1445,
+  "completion_tokens": 489
+ }
+}

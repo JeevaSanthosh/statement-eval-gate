@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_052",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW15921448\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 86962.07,\n  \"closing_value\": 16584.41,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh Japan Equity Inc\",\n      \"units\": 5795.136,\n      \"value\": 16584.41\n    },\n    {\n      \"fund_name\": \"Larchmont Japan Equity Inc\",\n      \"units\": 740.478,\n      \"value\": 1032.44\n    },\n    {\n      \"fund_name\": \"Larchmont UK Equity Income Acc GBP\",\n      \"units\": 4885.824,\n      \"value\": 12181.82\n    },\n    {\n      \"fund_name\": \"Orwell Global Equity Index Acc GBP\",\n      \"units\": 643.221,\n      \"value\": 30426.41\n    },\n    {\n      \"fund_name\": \"Calder Asia Pacific ex Japan Inc\",\n      \"units\": 4187.439,\n      \"value\": 9798.54\n    },\n    {\n      \"fund_name\": \"Hartsop US Equity Tracker Acc\",\n      \"units\": 3110506,\n      \"value\": 16938.45\n    }\n  ]\n}",
+  "latency_ms": 114705,
+  "prompt_tokens": 1609,
+  "completion_tokens": 435
+ }
+}

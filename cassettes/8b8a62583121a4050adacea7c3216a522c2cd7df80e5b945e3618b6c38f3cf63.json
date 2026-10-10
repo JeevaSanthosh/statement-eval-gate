@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_057",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-09038871\",\n  \"statement_start\": \"2024-07-01\",\n  \"statement_end\": \"2024-09-30\",\n  \"opening_value\": 120328.99,\n  \"closing_value\": 127309.08,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 49.77,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Pennine Short-Dated Bond Acc\",\n      \"units\": 5883.604,\n      \"value\": 33769.1\n    },\n    {\n      \"fund_name\": \"Hartsop Emerging Markets Equity Acc\",\n      \"units\": 1862.058,\n      \"value\": 5156.94\n    },\n    {\n      \"fund_name\": \"Pennine Sterling Corporate Bond Inc\",\n      \"units\": 8857.58,\n      \"value\": 10380.51\n    },\n    {\n      \"fund_name\": \"Caider Emerging Markets Equity Inc\",\n      \"units\": 2783.39,\n      \"value\": 9786.34\n    },\n    {\n      \"fund_name\": \"Calder Global Property Securities C Acc\",\n      \"units\": 6713.826,\n      \"value\": 29502.17\n    },\n    {\n      \"fund_name\": \"Pennine Japan Equity C Acc\",\n      \"units\": 8371.204,\n      \"value\": 38649.43\n    },\n    {\n      \"fund_name\": \"Calder US Equity Tracker Inc\",\n      \"units\": 3532.0,\n      \"value\": 64.59\n    }\n  ]\n}",
+  "latency_ms": 125641,
+  "prompt_tokens": 1489,
+  "completion_tokens": 485
+ }
+}

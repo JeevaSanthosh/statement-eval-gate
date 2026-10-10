@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_013",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-32752368\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 39621.05,\n  \"closing_value\": 38706.33,\n  \"contributions\": 600.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 10.67,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont Global Equity Index Inc\",\n      \"units\": 3817.28,\n      \"value\": 5242.85\n    },\n    {\n      \"fund_name\": \"Hartsop Global Equity Index Acc\",\n      \"units\": 8377.4,\n      \"value\": 7343.05\n    },\n    {\n      \"fund_name\": \"Larchmont Asia Pacific ex Japan Acc\",\n      \"units\": 7852.42,\n      \"value\": 12489.8\n    },\n    {\n      \"fund_name\": \"Meridian Emerging Markets Equity Inc\",\n      \"units\": 2811.74,\n      \"value\": 13630.63\n    }\n  ]\n}",
+  "latency_ms": 94953,
+  "prompt_tokens": 1571,
+  "completion_tokens": 341
+ }
+}

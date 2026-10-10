@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_053",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-31180920\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 90760.46,\n  \"closing_value\": 93018.2,\n  \"contributions\": 450.0,\n  \"withdrawals\": 2000.0,\n  \"fees\": 54.53,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Larchmont Multi-Asset Balanced C Acc\",\n      \"units\": 3987.764,\n      \"value\": 10540.25\n    },\n    {\n      \"fund_name\": \"Pennine Multi-Asset Balanced Acc\",\n      \"units\": 1061.942,\n      \"value\": 3850.31\n    },\n    {\n      \"fund_name\": \"Orwell Short-Dated Bond Inc\",\n      \"units\": 1607.961,\n      \"value\": 2385.45\n    },\n    {\n      \"fund_name\": \"Saltmarsh Asia Pacific ex Japan Inc\",\n      \"units\": 370.663,\n      \"value\": 1490.77\n    },\n    {\n      \"fund_name\": \"Saltmarsh Sterling Corporate Bond Acc GBP\",\n      \"units\": 1395.945,\n      \"value\": 1525.45\n    },\n    {\n      \"fund_name\": \"Wrekin UK Gilt Tracker Acc\",\n      \"units\": 6399.437,\n      \"value\": 36860.87\n    },\n    {\n      \"fund_name\": \"Meridian Asia Pacific ex Japan Inc\",\n      \"units\": 6075.179,\n      \"value\": 36365.1\n    }\n  ]\n}",
+  "latency_ms": 128254,
+  "prompt_tokens": 1492,
+  "completion_tokens": 498
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_019",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/507469/47\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 96027.14,\n  \"closing_value\": 98783.47,\n  \"contributions\": 300.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 75.05,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Saltmarsh Global Equity Index Acc\",\n      \"units\": 7605495,\n      \"value\": 26219.54\n    },\n    {\n      \"fund_name\": \"Saltmarsh Short-Dated Bond Acc GBP\",\n      \"units\": 5687194,\n      \"value\": 24840.1\n    },\n    {\n      \"fund_name\": \"Pennine Global Property Securities Acc GBP\",\n      \"units\": 7773347,\n      \"value\": 47723.83\n    }\n  ]\n}",
+  "latency_ms": 87365,
+  "prompt_tokens": 1460,
+  "completion_tokens": 295
+ }
+}

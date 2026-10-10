@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_012",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Kestrel Lane Wealth\",\n  \"account_number\": \"KLW69963932\",\n  \"statement_start\": \"2024-04-01\",\n  \"statement_end\": \"2024-06-30\",\n  \"opening_value\": 55836.09,\n  \"closing_value\": 55221.81,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": null,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Japan Equity C Acc\",\n      \"units\": 8156.021,\n      \"value\": 42974.23\n    },\n    {\n      \"fund_name\": \"Meridian European Smaller Companies C Acc\",\n      \"units\": 1297.999,\n      \"value\": 7189.06\n    },\n    {\n      \"fund_name\": \"Wrekin Global Equity Index Inc\",\n      \"units\": 5713.134,\n      \"value\": 5058.52\n    }\n  ]\n}",
+  "latency_ms": 83499,
+  "prompt_tokens": 1520,
+  "completion_tokens": 290
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_018",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Tidewell Platform\",\n  \"account_number\": \"TDW 9916 7745\",\n  \"statement_start\": \"2025-07-01\",\n  \"statement_end\": \"2025-09-30\",\n  \"opening_value\": 104745.76,\n  \"closing_value\": 103093.82,\n  \"contributions\": 0.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 73.73,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Meridian Short-Dated Bond Inc\",\n      \"units\": 5864.898,\n      \"value\": 27576.86\n    },\n    {\n      \"fund_name\": \"Larchmont Short-Dated Bond C Acc\",\n      \"units\": 5226.432,\n      \"value\": 8468.83\n    },\n    {\n      \"fund_name\": \"Calder Multi-Asset Balanced Inc\",\n      \"units\": 2174.836,\n      \"value\": 5154.47\n    },\n    {\n      \"fund_name\": \"Calder Sterling Corporate Bond C Acc\",\n      \"units\": 334.698,\n      \"value\": 1467.18\n    },\n    {\n      \"fund_name\": \"Pennine Asia Pacific ex Japan Acc\",\n      \"units\": 7739.574,\n      \"value\": 48000.0\n    },\n    {\n      \"fund_name\": \"Wrekin Multi-Asset Balanced Acc GBP\",\n      \"units\": 604.682,\n      \"value\": 1144.31\n    },\n    {\n      \"fund_name\": \"Pennine Japan Equity Acc GBP\",\n      \"units\": 5631.065,\n      \"value\": 5132.3\n    },\n    {\n      \"fund_name\": \"Meridian Japan Equity C Acc\",\n      \"units\": 2011.629,\n      \"value\": 6149.87\n    }\n  ]\n}",
+  "latency_ms": 141259,
+  "prompt_tokens": 1712,
+  "completion_tokens": 543
+ }
+}

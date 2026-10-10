@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_021",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Brackenford Investments\",\n  \"account_number\": \"BRK-31200624\",\n  \"statement_start\": \"2026-04-01\",\n  \"statement_end\": \"2026-06-30\",\n  \"opening_value\": 127827.71,\n  \"closing_value\": 128287.17,\n  \"contributions\": 0.0,\n  \"withdrawals\": 1350.0,\n  \"fees\": 115.15,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell US Equity Tracker C Acc\",\n      \"units\": 6045340.0,\n      \"value\": 29270.68\n    },\n    {\n      \"fund_name\": \"Wrekin Asia Pacific ex Japan Acc GBP\",\n      \"units\": 2073832.0,\n      \"value\": 7074.84\n    },\n    {\n      \"fund_name\": \"Larchmont Global Equity Index Acc GBP\",\n      \"units\": 4889391.0,\n      \"value\": 23328.88\n    },\n    {\n      \"fund_name\": \"Orwell Global Equity Index Inc\",\n      \"units\": 6630857.0,\n      \"value\": 39670.71\n    },\n    {\n      \"fund_name\": \"Calder Japan Equity Acc\",\n      \"units\": 5119082.0,\n      \"value\": 28942.06\n    }\n  ]\n}",
+  "latency_ms": 108655,
+  "prompt_tokens": 1427,
+  "completion_tokens": 407
+ }
+}

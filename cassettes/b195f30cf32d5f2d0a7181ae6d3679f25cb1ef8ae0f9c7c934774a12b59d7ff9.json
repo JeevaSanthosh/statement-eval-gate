@@ -1,0 +1,10 @@
+{
+ "doc_id": "stmt_011",
+ "request_model": "qwen3.5:4b",
+ "response": {
+  "content": "{\n  \"provider\": \"Ashcombe Pensions\",\n  \"account_number\": \"ASP/471213/45\",\n  \"statement_start\": \"2026-01-01\",\n  \"statement_end\": \"2026-03-31\",\n  \"opening_value\": 53562.7,\n  \"closing_value\": 54312.3,\n  \"contributions\": 450.0,\n  \"withdrawals\": 0.0,\n  \"fees\": 39.34,\n  \"holdings\": [\n    {\n      \"fund_name\": \"Orwell UK Equity Income Inc\",\n      \"units\": 6610.302,\n      \"value\": 21675.58\n    },\n    {\n      \"fund_name\": \"Pennine UK Equity Income Acc\",\n      \"units\": 1797.871,\n      \"value\": 7976.24\n    },\n    {\n      \"fund_name\": \"Larchmont Japan Equity Inc\",\n      \"units\": 997.553,\n      \"value\": 1971.89\n    },\n    {\n      \"fund_name\": \"Larchmont Multi-Asset Balanced Acc\",\n      \"units\": 3519.537,\n      \"value\": 3496.34\n    },\n    {\n      \"fund_name\": \"Saltmarsh Sterling Corporate Bond Acc GBP\",\n      \"units\": 3615.229,\n      \"value\": 19192.25\n    }\n  ]\n}",
+  "latency_ms": 108647,
+  "prompt_tokens": 1693,
+  "completion_tokens": 391
+ }
+}
