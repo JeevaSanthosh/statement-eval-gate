@@ -74,6 +74,25 @@ def test_command_line_compare_writes_report_and_enforces(dataset, tmp_path, monk
     assert "| fees |" in report.read_text(encoding="utf-8")
 
 
+def test_promote_gives_the_baseline_a_fresh_timestamp(dataset, tmp_path):
+    # Git can decide a file is unchanged from its size and timestamp alone. If promote kept
+    # the run's old timestamp, a same-size baseline (v1 -> v2) could be left out of a commit.
+    import os
+    import time
+
+    from seg.cli import main
+
+    data, _ = dataset
+    run = tmp_path / "run"
+    main(["--data", str(data), "extract", "--provider", "fake", "--model", "oracle",
+          "--prompt", str(_prompt(tmp_path)), "--out", str(run)])
+    old = time.time() - 86_400
+    os.utime(run / "run.json", (old, old))
+    started = time.time()
+    main(["--data", str(data), "promote", str(run), "--to", str(tmp_path / "baseline")])
+    assert (tmp_path / "baseline" / "run.json").stat().st_mtime >= started - 1
+
+
 def _prompt(tmp_path):
     p = tmp_path / "prompt.md"
     p.write_text("Extract the fields.", encoding="utf-8")
