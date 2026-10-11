@@ -29,7 +29,7 @@ statements   or OCR       to cassettes/       F1          blocks the PR
 |---|---|
 | `seg generate` | Builds 60 statements from four fictional providers, with the right answer for each. About a fifth are rendered as noisy scans with no text layer. |
 | `seg prepare` | Reads the text layer, or runs Tesseract OCR on pages that have none and puts back the decimal point in unit counts, then saves the text. The text is committed so every model request is reproducible. |
-| `seg extract` | Sends each statement to the model with a JSON schema for structured output. In `record` mode the response is saved under a hash of the full request; in `replay` mode it is read back. |
+| `seg extract` | Sends each statement to the model with a JSON schema for structured output. In `record` mode the response is saved under a hash of the full request; in `replay` mode it is read back. The model's fund names and unit counts are then checked against the rows of the statement text (`src/seg/ground.py`). |
 | `seg score` | Per-field precision, recall and F1, broken down by provider and by scanned vs native. Optional MLflow logging. |
 | `seg gate` | Replays the candidate in `eval.toml`, scores it and the baseline with the same code, and fails if any field drops significantly. |
 
@@ -147,6 +147,36 @@ The gate marks holdings **better**: +0.106, with a 95% interval of +0.047 to
 +0.176. Every other field passes, and the native statements' answers are
 unchanged. That one regular expression did more than any prompt change.
 
+### Checking names and units against the text
+
+What was left were the model's own slips, made with the right text in front of
+it: the end of a fund name dropped, usually `GBP` from `Acc GBP` (16 holdings),
+and unit counts rounded to two decimal places (8).
+
+A prompt aimed at them (v3, [#6](https://github.com/JeevaSanthosh/statement-eval-gate/pull/6))
+fixed all 25 it targeted and broke 18 others. Given an example ending in `GBP`,
+the model added `GBP` to every fund on two statements, and two values on a scan
+slid down a row. The gate passed it without calling it better: holdings +0.021,
+with an interval of −0.065 to +0.095.
+
+So the check moved into code. After the model answers, each fund name is matched
+against the rows of the statement. If the model's name and exactly one row's
+name differ only by whole words at the end, the row's name is used. If the
+row's unit count, rounded, equals the model's, the row's full figure is used.
+Anything ambiguous is left alone, so the step can only swap an answer for text
+from the statement. Applied to the correct answers for all 60 statements, it
+changes nothing.
+
+| Holdings exactly right | Before | After |
+|---|---:|---:|
+| Native PDFs | 254 of 270 | 269 of 270 |
+| Scans | 49 of 71 | 58 of 71 |
+| Holdings F1, all 60 | 0.889 | 0.959 |
+| Macro F1, all 60 | 0.984 | 0.991 |
+
+The gate marks holdings **better** (+0.070, 95% interval +0.032 to +0.114), on
+the same recordings, with no new model run. Every other field passes.
+
 Each statement takes a median of 118 s (83 to 174 s) and about 430 output
 tokens, so a full run is two hours on CPU.
 
@@ -217,16 +247,19 @@ seg prepare
   can show are real.
 - Matching is exact after normalisation. A fund name with one OCR error counts
   as wrong.
+- Grounding assumes a holding is printed as one line: the fund name, then the
+  unit count. A layout that wraps names over two lines, or prints units first,
+  would need its own row reader.
 
 ## Next
 
-- Fund names are now the largest error. 16 holdings lose the end of their
-  name, usually `GBP` from `Acc GBP` (9 on scans, 7 on native PDFs), even though
-  the text has it. Unlike the v2 rules, a prompt rule aimed at this targets a
-  measured failure; put it through the gate.
+- 14 holdings are still wrong. 13 are on scans and were already wrong in the
+  OCR text (6 fund names, 5 unit counts with a wrong digit, 2 values); the
+  next gain there is better OCR, not a better model. The last is a native unit
+  count whose thousands comma the model read as a decimal point.
 - Guardrails: a reconciliation check (holdings sum to the closing value) that
-  rejects an extraction before it is used. It catches wrong values and missing
-  holdings, not wrong names.
+  rejects an extraction before it is used. It would flag the wrong values and
+  unit counts above, not the wrong names.
 - An adversarial set: instructions hidden in statement text, totals that do not
   reconcile, pages out of order.
 - RAGAS and DeepEval run alongside per-field F1, with a write-up of where they
