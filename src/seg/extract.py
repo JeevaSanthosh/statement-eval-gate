@@ -10,7 +10,6 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from . import __version__
-from .ground import ground_holdings
 from .llm import OPTIONS, Cassette, make_client
 from .schema import Statement
 
@@ -88,7 +87,7 @@ def run_extraction(
             else:
                 response, key, source = client.complete(request, entry["id"]), None, "fake"
             prediction, error = parse(response["content"])
-            prediction, grounded = ground_holdings(prediction, text)
+            grounded: list[str] = []  # DEMO (do not merge): grounding removed to show the gate blocking a regression
             if verbose:
                 took = f"{response['latency_ms'] / 1000:.0f}s" if response.get("latency_ms") else ""
                 print(f"[{n}/{len(manifest)}] {entry['id']} {source} {took} {error or 'ok'}", flush=True)
