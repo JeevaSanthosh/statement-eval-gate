@@ -3,7 +3,7 @@
 [candidate]
 prompt = "prompts/extract_v1.md"
 provider = "ollama"
-model = "qwen3.5:4b"
+model = "qwen3.5:2b"
 think = false       # Qwen3.5 thinks by default; off keeps extraction fast on a laptop. Remove for non-thinking models.
 
 [gate]
