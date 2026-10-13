@@ -180,6 +180,32 @@ the same recordings, with no new model run. Every other field passes.
 Each statement takes a median of 118 s (83 to 174 s) and about 430 output
 tokens, so a full run is two hours on CPU.
 
+### Changes the gate blocked
+
+Two pull requests the gate refused, both closed unmerged.
+
+**Dropping the grounding step** ([#9](https://github.com/JeevaSanthosh/statement-eval-gate/pull/9),
+a labelled demonstration). With the check above skipped and the same recordings
+replayed, the unit tests still pass, because they test the grounding code on its
+own. The gate fails holdings: 0.959 to 0.889 (−0.070, 95% interval −0.114 to
+−0.032).
+
+**A model half the size** ([#10](https://github.com/JeevaSanthosh/statement-eval-gate/pull/10)).
+`qwen3.5:2b` in place of `qwen3.5:4b`, with the same prompt and settings, all 60
+statements recorded.
+
+| | 4b | 2b |
+|---|---:|---:|
+| Account number F1 | 0.983 | 0.659 (fail) |
+| Holdings F1 | 0.959 | 0.880 (fail) |
+| Macro F1 | 0.991 | 0.943 |
+| Time for all 60, CPU | 120 min | 81 min |
+
+Tidewell prints the account number as "Plan reference" and Ashcombe as "Member
+number": 2b returned none for all 30 of those statements, and 4b read every one.
+The smaller model saved 32% of the time, not half, at the cost of a third of
+the account numbers, so `main` stays on 4b.
+
 ## Running it
 
 You need Python 3.11+ and [Ollama](https://ollama.com). Tesseract and Poppler
